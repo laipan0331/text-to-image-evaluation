@@ -1,0 +1,15 @@
+{
+  "folders": [
+    {
+      "name": "t2i_eval",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+    "python.analysis.extraPaths": [
+      "${workspaceFolder}/src"
+    ],
+    "terminal.integrated.cwd": "${workspaceFolder}"
+  }
+}

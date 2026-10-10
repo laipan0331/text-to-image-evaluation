@@ -1,0 +1,1082 @@
+[
+  {
+    "prompt_id": 1,
+    "category": "object_count",
+    "prompt": "three red apples on a wooden table object_count benchmark sample 1",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 2,
+    "category": "object_count",
+    "prompt": "five books stacked neatly beside a lamp",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 3,
+    "category": "object_count",
+    "prompt": "two cats sitting on a windowsill, photorealistic",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 4,
+    "category": "object_count",
+    "prompt": "seven balloons floating above a city street at sunset object_count benchmark sample 4",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 5,
+    "category": "object_count",
+    "prompt": "three red apples on a wooden table",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 6,
+    "category": "object_count",
+    "prompt": "five books stacked neatly beside a lamp",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 7,
+    "category": "object_count",
+    "prompt": "two cats sitting on a windowsill, photorealistic object_count benchmark sample 7",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 8,
+    "category": "object_count",
+    "prompt": "seven balloons floating above a city street at sunset",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 9,
+    "category": "object_count",
+    "prompt": "three red apples on a wooden table",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 10,
+    "category": "object_count",
+    "prompt": "five books stacked neatly beside a lamp object_count benchmark sample 10",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 11,
+    "category": "object_count",
+    "prompt": "two cats sitting on a windowsill, photorealistic",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 12,
+    "category": "object_count",
+    "prompt": "seven balloons floating above a city street at sunset",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 13,
+    "category": "object_count",
+    "prompt": "three red apples on a wooden table object_count benchmark sample 13",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 14,
+    "category": "object_count",
+    "prompt": "five books stacked neatly beside a lamp",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 15,
+    "category": "object_count",
+    "prompt": "two cats sitting on a windowsill, photorealistic",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 16,
+    "category": "object_count",
+    "prompt": "seven balloons floating above a city street at sunset object_count benchmark sample 16",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 17,
+    "category": "object_count",
+    "prompt": "three red apples on a wooden table",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 18,
+    "category": "object_count",
+    "prompt": "five books stacked neatly beside a lamp",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 19,
+    "category": "object_count",
+    "prompt": "two cats sitting on a windowsill, photorealistic object_count benchmark sample 19",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 20,
+    "category": "object_count",
+    "prompt": "seven balloons floating above a city street at sunset",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 21,
+    "category": "spatial_relation",
+    "prompt": "a dog to the left of a bicycle in a park spatial_relation benchmark sample 1",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 22,
+    "category": "spatial_relation",
+    "prompt": "a cup on top of a notebook next to a laptop",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 23,
+    "category": "spatial_relation",
+    "prompt": "a small plant in front of a blue chair inside a studio",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 24,
+    "category": "spatial_relation",
+    "prompt": "a teddy bear behind a vase on a dining table spatial_relation benchmark sample 4",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 25,
+    "category": "spatial_relation",
+    "prompt": "a dog to the left of a bicycle in a park",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 26,
+    "category": "spatial_relation",
+    "prompt": "a cup on top of a notebook next to a laptop",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 27,
+    "category": "spatial_relation",
+    "prompt": "a small plant in front of a blue chair inside a studio spatial_relation benchmark sample 7",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 28,
+    "category": "spatial_relation",
+    "prompt": "a teddy bear behind a vase on a dining table",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 29,
+    "category": "spatial_relation",
+    "prompt": "a dog to the left of a bicycle in a park",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 30,
+    "category": "spatial_relation",
+    "prompt": "a cup on top of a notebook next to a laptop spatial_relation benchmark sample 10",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 31,
+    "category": "spatial_relation",
+    "prompt": "a small plant in front of a blue chair inside a studio",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 32,
+    "category": "spatial_relation",
+    "prompt": "a teddy bear behind a vase on a dining table",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 33,
+    "category": "spatial_relation",
+    "prompt": "a dog to the left of a bicycle in a park spatial_relation benchmark sample 13",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 34,
+    "category": "spatial_relation",
+    "prompt": "a cup on top of a notebook next to a laptop",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 35,
+    "category": "spatial_relation",
+    "prompt": "a small plant in front of a blue chair inside a studio",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 36,
+    "category": "spatial_relation",
+    "prompt": "a teddy bear behind a vase on a dining table spatial_relation benchmark sample 16",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 37,
+    "category": "spatial_relation",
+    "prompt": "a dog to the left of a bicycle in a park",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 38,
+    "category": "spatial_relation",
+    "prompt": "a cup on top of a notebook next to a laptop",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 39,
+    "category": "spatial_relation",
+    "prompt": "a small plant in front of a blue chair inside a studio spatial_relation benchmark sample 19",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 40,
+    "category": "spatial_relation",
+    "prompt": "a teddy bear behind a vase on a dining table",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 41,
+    "category": "color_attribute",
+    "prompt": "a yellow lemon next to a green cucumber on a white counter color_attribute benchmark sample 1",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 42,
+    "category": "color_attribute",
+    "prompt": "a purple umbrella with a red handle under a cloudy sky",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 43,
+    "category": "color_attribute",
+    "prompt": "a blue ceramic mug with gold trim on a wooden desk",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 44,
+    "category": "color_attribute",
+    "prompt": "a black-and-white striped cat staring at a camera color_attribute benchmark sample 4",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 45,
+    "category": "color_attribute",
+    "prompt": "a yellow lemon next to a green cucumber on a white counter",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 46,
+    "category": "color_attribute",
+    "prompt": "a purple umbrella with a red handle under a cloudy sky",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 47,
+    "category": "color_attribute",
+    "prompt": "a blue ceramic mug with gold trim on a wooden desk color_attribute benchmark sample 7",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 48,
+    "category": "color_attribute",
+    "prompt": "a black-and-white striped cat staring at a camera",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 49,
+    "category": "color_attribute",
+    "prompt": "a yellow lemon next to a green cucumber on a white counter",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 50,
+    "category": "color_attribute",
+    "prompt": "a purple umbrella with a red handle under a cloudy sky color_attribute benchmark sample 10",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 51,
+    "category": "color_attribute",
+    "prompt": "a blue ceramic mug with gold trim on a wooden desk",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 52,
+    "category": "color_attribute",
+    "prompt": "a black-and-white striped cat staring at a camera",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 53,
+    "category": "color_attribute",
+    "prompt": "a yellow lemon next to a green cucumber on a white counter color_attribute benchmark sample 13",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 54,
+    "category": "color_attribute",
+    "prompt": "a purple umbrella with a red handle under a cloudy sky",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 55,
+    "category": "color_attribute",
+    "prompt": "a blue ceramic mug with gold trim on a wooden desk",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 56,
+    "category": "color_attribute",
+    "prompt": "a black-and-white striped cat staring at a camera color_attribute benchmark sample 16",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 57,
+    "category": "color_attribute",
+    "prompt": "a yellow lemon next to a green cucumber on a white counter",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 58,
+    "category": "color_attribute",
+    "prompt": "a purple umbrella with a red handle under a cloudy sky",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 59,
+    "category": "color_attribute",
+    "prompt": "a blue ceramic mug with gold trim on a wooden desk color_attribute benchmark sample 19",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 60,
+    "category": "color_attribute",
+    "prompt": "a black-and-white striped cat staring at a camera",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 61,
+    "category": "text_rendering",
+    "prompt": "a street sign that says 'WELCOME HOME' in bold modern type text_rendering benchmark sample 1",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 62,
+    "category": "text_rendering",
+    "prompt": "a coffee cup with the text 'KEEP GOING' printed on it",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 63,
+    "category": "text_rendering",
+    "prompt": "a book cover reading 'MIRROR CITY' with neon letters",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 64,
+    "category": "text_rendering",
+    "prompt": "a chalkboard with the phrase 'AI LAB' written in neat handwriting text_rendering benchmark sample 4",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 65,
+    "category": "text_rendering",
+    "prompt": "a street sign that says 'WELCOME HOME' in bold modern type",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 66,
+    "category": "text_rendering",
+    "prompt": "a coffee cup with the text 'KEEP GOING' printed on it",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 67,
+    "category": "text_rendering",
+    "prompt": "a book cover reading 'MIRROR CITY' with neon letters text_rendering benchmark sample 7",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 68,
+    "category": "text_rendering",
+    "prompt": "a chalkboard with the phrase 'AI LAB' written in neat handwriting",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 69,
+    "category": "text_rendering",
+    "prompt": "a street sign that says 'WELCOME HOME' in bold modern type",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 70,
+    "category": "text_rendering",
+    "prompt": "a coffee cup with the text 'KEEP GOING' printed on it text_rendering benchmark sample 10",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 71,
+    "category": "text_rendering",
+    "prompt": "a book cover reading 'MIRROR CITY' with neon letters",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 72,
+    "category": "text_rendering",
+    "prompt": "a chalkboard with the phrase 'AI LAB' written in neat handwriting",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 73,
+    "category": "text_rendering",
+    "prompt": "a street sign that says 'WELCOME HOME' in bold modern type text_rendering benchmark sample 13",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 74,
+    "category": "text_rendering",
+    "prompt": "a coffee cup with the text 'KEEP GOING' printed on it",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 75,
+    "category": "text_rendering",
+    "prompt": "a book cover reading 'MIRROR CITY' with neon letters",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 76,
+    "category": "text_rendering",
+    "prompt": "a chalkboard with the phrase 'AI LAB' written in neat handwriting text_rendering benchmark sample 16",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 77,
+    "category": "text_rendering",
+    "prompt": "a street sign that says 'WELCOME HOME' in bold modern type",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 78,
+    "category": "text_rendering",
+    "prompt": "a coffee cup with the text 'KEEP GOING' printed on it",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 79,
+    "category": "text_rendering",
+    "prompt": "a book cover reading 'MIRROR CITY' with neon letters text_rendering benchmark sample 19",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 80,
+    "category": "text_rendering",
+    "prompt": "a chalkboard with the phrase 'AI LAB' written in neat handwriting",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 81,
+    "category": "style_composition",
+    "prompt": "cinematic portrait of a chef in a warm kitchen, shallow depth of field style_composition benchmark sample 1",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 82,
+    "category": "style_composition",
+    "prompt": "watercolor painting of a mountain lake at sunrise, soft brush strokes",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 83,
+    "category": "style_composition",
+    "prompt": "isometric 3D office workspace with large glass windows, minimalistic design",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 84,
+    "category": "style_composition",
+    "prompt": "anime-style city alley at night with neon reflections and rainy pavement style_composition benchmark sample 4",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 85,
+    "category": "style_composition",
+    "prompt": "cinematic portrait of a chef in a warm kitchen, shallow depth of field",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 86,
+    "category": "style_composition",
+    "prompt": "watercolor painting of a mountain lake at sunrise, soft brush strokes",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 87,
+    "category": "style_composition",
+    "prompt": "isometric 3D office workspace with large glass windows, minimalistic design style_composition benchmark sample 7",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 88,
+    "category": "style_composition",
+    "prompt": "anime-style city alley at night with neon reflections and rainy pavement",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 89,
+    "category": "style_composition",
+    "prompt": "cinematic portrait of a chef in a warm kitchen, shallow depth of field",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 90,
+    "category": "style_composition",
+    "prompt": "watercolor painting of a mountain lake at sunrise, soft brush strokes style_composition benchmark sample 10",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 91,
+    "category": "style_composition",
+    "prompt": "isometric 3D office workspace with large glass windows, minimalistic design",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 92,
+    "category": "style_composition",
+    "prompt": "anime-style city alley at night with neon reflections and rainy pavement",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 93,
+    "category": "style_composition",
+    "prompt": "cinematic portrait of a chef in a warm kitchen, shallow depth of field style_composition benchmark sample 13",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 94,
+    "category": "style_composition",
+    "prompt": "watercolor painting of a mountain lake at sunrise, soft brush strokes",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 95,
+    "category": "style_composition",
+    "prompt": "isometric 3D office workspace with large glass windows, minimalistic design",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 96,
+    "category": "style_composition",
+    "prompt": "anime-style city alley at night with neon reflections and rainy pavement style_composition benchmark sample 16",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 97,
+    "category": "style_composition",
+    "prompt": "cinematic portrait of a chef in a warm kitchen, shallow depth of field",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 98,
+    "category": "style_composition",
+    "prompt": "watercolor painting of a mountain lake at sunrise, soft brush strokes",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 99,
+    "category": "style_composition",
+    "prompt": "isometric 3D office workspace with large glass windows, minimalistic design style_composition benchmark sample 19",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 100,
+    "category": "style_composition",
+    "prompt": "anime-style city alley at night with neon reflections and rainy pavement",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 101,
+    "category": "attribute_binding",
+    "prompt": "a red bicycle with a blue basket beside a white wall attribute_binding benchmark sample 1",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 102,
+    "category": "attribute_binding",
+    "prompt": "a striped green shirt on a person holding a yellow umbrella",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 103,
+    "category": "attribute_binding",
+    "prompt": "a silver teapot with a black handle and a white flower decoration",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 104,
+    "category": "attribute_binding",
+    "prompt": "a pink sofa with a brown wooden frame in a cozy room attribute_binding benchmark sample 4",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 105,
+    "category": "attribute_binding",
+    "prompt": "a red bicycle with a blue basket beside a white wall",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 106,
+    "category": "attribute_binding",
+    "prompt": "a striped green shirt on a person holding a yellow umbrella",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 107,
+    "category": "attribute_binding",
+    "prompt": "a silver teapot with a black handle and a white flower decoration attribute_binding benchmark sample 7",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 108,
+    "category": "attribute_binding",
+    "prompt": "a pink sofa with a brown wooden frame in a cozy room",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 109,
+    "category": "attribute_binding",
+    "prompt": "a red bicycle with a blue basket beside a white wall",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 110,
+    "category": "attribute_binding",
+    "prompt": "a striped green shirt on a person holding a yellow umbrella attribute_binding benchmark sample 10",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 111,
+    "category": "attribute_binding",
+    "prompt": "a silver teapot with a black handle and a white flower decoration",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 112,
+    "category": "attribute_binding",
+    "prompt": "a pink sofa with a brown wooden frame in a cozy room",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 113,
+    "category": "attribute_binding",
+    "prompt": "a red bicycle with a blue basket beside a white wall attribute_binding benchmark sample 13",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 114,
+    "category": "attribute_binding",
+    "prompt": "a striped green shirt on a person holding a yellow umbrella",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 115,
+    "category": "attribute_binding",
+    "prompt": "a silver teapot with a black handle and a white flower decoration",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 116,
+    "category": "attribute_binding",
+    "prompt": "a pink sofa with a brown wooden frame in a cozy room attribute_binding benchmark sample 16",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 117,
+    "category": "attribute_binding",
+    "prompt": "a red bicycle with a blue basket beside a white wall",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 118,
+    "category": "attribute_binding",
+    "prompt": "a striped green shirt on a person holding a yellow umbrella",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 119,
+    "category": "attribute_binding",
+    "prompt": "a silver teapot with a black handle and a white flower decoration attribute_binding benchmark sample 19",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  },
+  {
+    "prompt_id": 120,
+    "category": "attribute_binding",
+    "prompt": "a pink sofa with a brown wooden frame in a cozy room",
+    "model_name": "",
+    "seed": 0,
+    "image_path": "",
+    "notes": "seeded benchmark prompt"
+  }
+]
