@@ -91,14 +91,31 @@ Each category includes multiple templates with acceptable variations to reduce o
 - compute agreement via Cohen's kappa or Krippendorff's alpha
 - compare human scores against automatic metrics
 
+## Results
+
+Results are written to `outputs/` after running the generation and evaluation
+pipeline. The benchmark report should include per-category scores for CLIP
+alignment, the image-based aesthetic heuristic, and the judge rubric, together
+with representative generated images and a short analysis of metric agreement.
+
+| Category | CLIP alignment | Aesthetic score | Judge overall quality |
+| --- | ---: | ---: | ---: |
+| object_count | pending | pending | pending |
+| spatial_relation | pending | pending | pending |
+| color_attribute | pending | pending | pending |
+| text_rendering | pending | pending | pending |
+| style_composition | pending | pending | pending |
+| attribute_binding | pending | pending | pending |
+
+The first reproducible run is still pending because generated image artifacts
+have not yet been produced in this checkout.
+
 ## Notes
 
-This project is intentionally lightweight and designed for research exploration, classroom assignments, or portfolio work. It is not a production monolith; it focuses on clarity and reproducibility.
+Designed to be lightweight and reproducible, prioritizing clarity of evaluation methodology.
 
 ## Example benchmark references
 
 - GenEval
 - T2I-CompBench
 - VBench
-
-These are useful references when explaining the design choices in interviews.
