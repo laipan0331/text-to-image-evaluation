@@ -49,9 +49,31 @@ def _parse_json(text: str) -> dict:
     return json.loads(m.group(0) if m else text)
 
 
+class MockJudge:
+    """Deterministic fake judge for smoke-testing the pipeline offline.
+
+    Its scores are meaningless: never use them for results. Records are tagged judge_name='mock'.
+    """
+
+    name = "mock"
+
+    def generate(self, prompt: str, image_path: str) -> str:
+        ids = [int(x) for x in re.findall(r"^(\d+)\. ", prompt, re.M)]
+        h = sum(map(ord, image_path))
+        verdicts = [{"id": i, "satisfied": (h + i) % 3 != 0, "reason": "mock"} for i in ids]
+        return json.dumps({"verdicts": verdicts, "overall_quality": 1 + h % 5})
+
+
 def judge_record(record: dict, client) -> dict:
-    raw = client.generate(build_judge_prompt(record["prompt"], record["elements"]), record["image_path"])
-    parsed = _parse_json(raw)
+    name = getattr(client, "name", "unknown")
+    try:
+        raw = client.generate(build_judge_prompt(record["prompt"], record["elements"]), record["image_path"])
+        parsed = _parse_json(raw)
+        parsed.get("verdicts", [])
+    except Exception as exc:  # malformed JSON / API error: record it, never invent scores
+        return {"verdicts": [], "element_pass_rate": None, "all_pass": None,
+                "judge_overall_quality": None, "judge_name": name,
+                "judge_error": f"{type(exc).__name__}: {exc}"}
     by_id = {int(v["id"]): v for v in parsed.get("verdicts", [])}
     verdicts = []
     for el in record["elements"]:

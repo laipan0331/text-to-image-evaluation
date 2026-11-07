@@ -14,15 +14,27 @@ def _mean(xs):
     return float(np.mean(xs)) if xs else None
 
 
+def bootstrap_ci(xs, n_boot: int = 2000, seed: int = 0):
+    """95% percentile bootstrap CI of the mean (categories only have ~30 prompts)."""
+    xs = np.array([x for x in xs if x is not None], dtype=float)
+    if len(xs) < 2:
+        return None
+    rng = np.random.default_rng(seed)
+    means = rng.choice(xs, (n_boot, len(xs))).mean(axis=1)
+    return [float(np.percentile(means, 2.5)), float(np.percentile(means, 97.5))]
+
+
 def category_table(records: list[dict]) -> dict:
-    """Per model x category: element pass rate, all-pass rate, CLIPScore, aesthetic, latency."""
+    """Per model x category: element pass rate (+95% CI), all-pass rate, CLIPScore, aesthetic, latency."""
     groups = defaultdict(list)
     for r in records:
         groups[(r["model"], r["category"])].append(r)
     return {f"{m}/{c}": {
         "n": len(rs),
+        "n_judge_errors": sum(1 for r in rs if r.get("judge_error")),
         "element_pass_rate": _mean(r.get("element_pass_rate") for r in rs),
-        "prompt_all_pass_rate": _mean(float(r["all_pass"]) if "all_pass" in r else None for r in rs),
+        "element_pass_rate_ci95": bootstrap_ci(r.get("element_pass_rate") for r in rs),
+        "prompt_all_pass_rate": _mean(None if r.get("all_pass") is None else float(r["all_pass"]) for r in rs),
         "clip_score": _mean(r.get("clip_score") for r in rs),
         "aesthetic_score": _mean(r.get("aesthetic_score") for r in rs),
         "latency_s": _mean(r.get("latency_s") for r in rs),

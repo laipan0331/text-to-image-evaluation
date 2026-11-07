@@ -57,12 +57,12 @@ def main(argv=None):
 
         save_json(records_path, compute_metrics_for_records(records))
     elif a.stage == "judge":
-        from .judge import OpenAIVisionJudge, process_judge_batch
+        from .judge import MockJudge, OpenAIVisionJudge, process_judge_batch
 
         if not a.judge_model:
-            p.error("--judge-model is required for the judge stage")
-        save_json(records_path, process_judge_batch(records, OpenAIVisionJudge(a.judge_model),
-                                                    a.loop_judge_model))
+            p.error("--judge-model is required for the judge stage (use 'mock' for a smoke test only)")
+        client = MockJudge() if a.judge_model == "mock" else OpenAIVisionJudge(a.judge_model)
+        save_json(records_path, process_judge_batch(records, client, a.loop_judge_model))
     elif a.stage == "human-export":
         from .human_eval import export_annotation_sheets
 

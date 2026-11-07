@@ -26,16 +26,20 @@ def generate_images(bank: list[dict], model_key: str, output_dir: str | Path) ->
     cfg = MODELS[model_key]
     out = Path(output_dir) / model_key
     out.mkdir(parents=True, exist_ok=True)
-    pipe, device = load_model_pipeline(cfg["hf_id"])
+    pipe = device = None  # loaded lazily so a fully cached run needs no GPU
     rows = []
     for item in bank:
-        gen = torch.Generator(device=device).manual_seed(item["seed"])
-        t0 = time.time()
-        img = pipe(prompt=item["prompt"], generator=gen, num_inference_steps=cfg["steps"],
-                   guidance_scale=cfg["guidance"]).images[0]
-        latency = time.time() - t0
         path = out / f"{item['prompt_id']:04d}.png"
-        img.save(path)
+        latency = None
+        if not path.exists():  # resume: keep images from an interrupted run
+            if pipe is None:
+                pipe, device = load_model_pipeline(cfg["hf_id"])
+            gen = torch.Generator(device=device).manual_seed(item["seed"])
+            t0 = time.time()
+            img = pipe(prompt=item["prompt"], generator=gen, num_inference_steps=cfg["steps"],
+                       guidance_scale=cfg["guidance"]).images[0]
+            latency = round(time.time() - t0, 3)
+            img.save(path)
         rows.append({**item, "model": model_key, "image_path": str(path),
-                     "steps": cfg["steps"], "guidance": cfg["guidance"], "latency_s": round(latency, 3)})
+                     "steps": cfg["steps"], "guidance": cfg["guidance"], "latency_s": latency})
     return rows

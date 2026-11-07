@@ -52,11 +52,14 @@ def _counting(rng: random.Random):
     return e
 
 
+SCENES = ["in a park", "on a dining table", "inside a studio", "on a windowsill", "in a cozy room", "on a street"]
+
+
 def _spatial(rng: random.Random):
     a, b = rng.sample(OBJECTS, 2)
     rel = rng.choice(RELATIONS)
     e = _entry("spatial", [_obj(a), _obj(b)], [{"subject": a, "relation": rel, "object": b}])
-    e["prompt"] = f"{_a(a)} {rel} {_a(b)}"
+    e["prompt"] = f"{_a(a)} {rel} {_a(b)} {rng.choice(SCENES)}"  # scene is not an element to verify
     return e
 
 
@@ -64,7 +67,7 @@ def _color_binding(rng: random.Random):
     a, b = rng.sample(OBJECTS, 2)
     ca, cb = rng.sample(COLORS, 2)
     e = _entry("color_binding", [_obj(a, 1, ca), _obj(b, 1, cb)])
-    e["prompt"] = f"{_a(ca + ' ' + a)} and {_a(cb + ' ' + b)}"
+    e["prompt"] = f"{_a(ca + ' ' + a)} next to {_a(cb + ' ' + b)} {rng.choice(SCENES)}"
     return e
 
 

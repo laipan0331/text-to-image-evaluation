@@ -34,6 +34,15 @@ python -m t2i_eval analyze --human-sheets outputs/human/annotator_1.csv outputs/
 
 All stages read and write `outputs/records.json`. Generation needs a GPU for practical speed.
 
+## Testing
+
+```bash
+python -m pytest tests                                  # unit tests (no GPU or API needed)
+python -m t2i_eval judge --judge-model mock             # offline pipeline smoke test; mock scores are meaningless
+```
+
+Other robustness features: generation resumes from images already on disk; judge failures (bad JSON, API errors) are recorded as `judge_error` and excluded from aggregates instead of being scored; the category table reports bootstrap 95% CIs because each category has only ~30 prompts.
+
 ## Known limitations
 
 - `compute_aesthetic_score` is a simple image-statistics heuristic, not a learned aesthetic model. Use the LAION aesthetic predictor before reporting final numbers.
