@@ -1,1082 +1,5643 @@
 [
   {
+    "category": "counting",
+    "checklist": {
+      "objects": [
+        {
+          "name": "flower",
+          "count": 2,
+          "color": null
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "2 flowers on a wooden table",
     "prompt_id": 1,
-    "category": "object_count",
-    "prompt": "three red apples on a wooden table object_count benchmark sample 1",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "count",
+        "count": 2,
+        "text": "exactly 2 flower(s) are visible",
+        "id": 0
+      }
+    ],
+    "seed": 1235
   },
   {
+    "category": "counting",
+    "checklist": {
+      "objects": [
+        {
+          "name": "book",
+          "count": 6,
+          "color": null
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "6 books on a wooden table",
     "prompt_id": 2,
-    "category": "object_count",
-    "prompt": "five books stacked neatly beside a lamp",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "count",
+        "count": 6,
+        "text": "exactly 6 book(s) are visible",
+        "id": 0
+      }
+    ],
+    "seed": 1236
   },
   {
+    "category": "counting",
+    "checklist": {
+      "objects": [
+        {
+          "name": "book",
+          "count": 2,
+          "color": null
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "2 books in a park",
     "prompt_id": 3,
-    "category": "object_count",
-    "prompt": "two cats sitting on a windowsill, photorealistic",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "count",
+        "count": 2,
+        "text": "exactly 2 book(s) are visible",
+        "id": 0
+      }
+    ],
+    "seed": 1237
   },
   {
+    "category": "counting",
+    "checklist": {
+      "objects": [
+        {
+          "name": "candle",
+          "count": 2,
+          "color": null
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "2 candles on a wooden table",
     "prompt_id": 4,
-    "category": "object_count",
-    "prompt": "seven balloons floating above a city street at sunset object_count benchmark sample 4",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "count",
+        "count": 2,
+        "text": "exactly 2 candle(s) are visible",
+        "id": 0
+      }
+    ],
+    "seed": 1238
   },
   {
+    "category": "counting",
+    "checklist": {
+      "objects": [
+        {
+          "name": "apple",
+          "count": 4,
+          "color": null
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "4 apples on a white background",
     "prompt_id": 5,
-    "category": "object_count",
-    "prompt": "three red apples on a wooden table",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "count",
+        "count": 4,
+        "text": "exactly 4 apple(s) are visible",
+        "id": 0
+      }
+    ],
+    "seed": 1239
   },
   {
+    "category": "counting",
+    "checklist": {
+      "objects": [
+        {
+          "name": "lamp",
+          "count": 6,
+          "color": null
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "6 lamps in a park",
     "prompt_id": 6,
-    "category": "object_count",
-    "prompt": "five books stacked neatly beside a lamp",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "count",
+        "count": 6,
+        "text": "exactly 6 lamp(s) are visible",
+        "id": 0
+      }
+    ],
+    "seed": 1240
   },
   {
+    "category": "counting",
+    "checklist": {
+      "objects": [
+        {
+          "name": "cup",
+          "count": 2,
+          "color": null
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "2 cups on a wooden table",
     "prompt_id": 7,
-    "category": "object_count",
-    "prompt": "two cats sitting on a windowsill, photorealistic object_count benchmark sample 7",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "count",
+        "count": 2,
+        "text": "exactly 2 cup(s) are visible",
+        "id": 0
+      }
+    ],
+    "seed": 1241
   },
   {
+    "category": "counting",
+    "checklist": {
+      "objects": [
+        {
+          "name": "balloon",
+          "count": 2,
+          "color": null
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "2 balloons on a white background",
     "prompt_id": 8,
-    "category": "object_count",
-    "prompt": "seven balloons floating above a city street at sunset",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "count",
+        "count": 2,
+        "text": "exactly 2 balloon(s) are visible",
+        "id": 0
+      }
+    ],
+    "seed": 1242
   },
   {
+    "category": "counting",
+    "checklist": {
+      "objects": [
+        {
+          "name": "lamp",
+          "count": 3,
+          "color": null
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "3 lamps on a wooden table",
     "prompt_id": 9,
-    "category": "object_count",
-    "prompt": "three red apples on a wooden table",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "count",
+        "count": 3,
+        "text": "exactly 3 lamp(s) are visible",
+        "id": 0
+      }
+    ],
+    "seed": 1243
   },
   {
+    "category": "counting",
+    "checklist": {
+      "objects": [
+        {
+          "name": "flower",
+          "count": 2,
+          "color": null
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "2 flowers on a white background",
     "prompt_id": 10,
-    "category": "object_count",
-    "prompt": "five books stacked neatly beside a lamp object_count benchmark sample 10",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "count",
+        "count": 2,
+        "text": "exactly 2 flower(s) are visible",
+        "id": 0
+      }
+    ],
+    "seed": 1244
   },
   {
+    "category": "counting",
+    "checklist": {
+      "objects": [
+        {
+          "name": "book",
+          "count": 6,
+          "color": null
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "6 books on a white background",
     "prompt_id": 11,
-    "category": "object_count",
-    "prompt": "two cats sitting on a windowsill, photorealistic",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "count",
+        "count": 6,
+        "text": "exactly 6 book(s) are visible",
+        "id": 0
+      }
+    ],
+    "seed": 1245
   },
   {
+    "category": "counting",
+    "checklist": {
+      "objects": [
+        {
+          "name": "cat",
+          "count": 4,
+          "color": null
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "4 cats on a white background",
     "prompt_id": 12,
-    "category": "object_count",
-    "prompt": "seven balloons floating above a city street at sunset",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "count",
+        "count": 4,
+        "text": "exactly 4 cat(s) are visible",
+        "id": 0
+      }
+    ],
+    "seed": 1246
   },
   {
+    "category": "counting",
+    "checklist": {
+      "objects": [
+        {
+          "name": "book",
+          "count": 7,
+          "color": null
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "7 books in a park",
     "prompt_id": 13,
-    "category": "object_count",
-    "prompt": "three red apples on a wooden table object_count benchmark sample 13",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "count",
+        "count": 7,
+        "text": "exactly 7 book(s) are visible",
+        "id": 0
+      }
+    ],
+    "seed": 1247
   },
   {
+    "category": "counting",
+    "checklist": {
+      "objects": [
+        {
+          "name": "lamp",
+          "count": 4,
+          "color": null
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "4 lamps in a park",
     "prompt_id": 14,
-    "category": "object_count",
-    "prompt": "five books stacked neatly beside a lamp",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "count",
+        "count": 4,
+        "text": "exactly 4 lamp(s) are visible",
+        "id": 0
+      }
+    ],
+    "seed": 1248
   },
   {
+    "category": "counting",
+    "checklist": {
+      "objects": [
+        {
+          "name": "candle",
+          "count": 7,
+          "color": null
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "7 candles on a wooden table",
     "prompt_id": 15,
-    "category": "object_count",
-    "prompt": "two cats sitting on a windowsill, photorealistic",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "count",
+        "count": 7,
+        "text": "exactly 7 candle(s) are visible",
+        "id": 0
+      }
+    ],
+    "seed": 1249
   },
   {
+    "category": "counting",
+    "checklist": {
+      "objects": [
+        {
+          "name": "flower",
+          "count": 6,
+          "color": null
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "6 flowers on a white background",
     "prompt_id": 16,
-    "category": "object_count",
-    "prompt": "seven balloons floating above a city street at sunset object_count benchmark sample 16",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "count",
+        "count": 6,
+        "text": "exactly 6 flower(s) are visible",
+        "id": 0
+      }
+    ],
+    "seed": 1250
   },
   {
+    "category": "counting",
+    "checklist": {
+      "objects": [
+        {
+          "name": "apple",
+          "count": 6,
+          "color": null
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "6 apples on a wooden table",
     "prompt_id": 17,
-    "category": "object_count",
-    "prompt": "three red apples on a wooden table",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "count",
+        "count": 6,
+        "text": "exactly 6 apple(s) are visible",
+        "id": 0
+      }
+    ],
+    "seed": 1251
   },
   {
+    "category": "counting",
+    "checklist": {
+      "objects": [
+        {
+          "name": "apple",
+          "count": 4,
+          "color": null
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "4 apples on a wooden table",
     "prompt_id": 18,
-    "category": "object_count",
-    "prompt": "five books stacked neatly beside a lamp",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "count",
+        "count": 4,
+        "text": "exactly 4 apple(s) are visible",
+        "id": 0
+      }
+    ],
+    "seed": 1252
   },
   {
+    "category": "counting",
+    "checklist": {
+      "objects": [
+        {
+          "name": "lamp",
+          "count": 7,
+          "color": null
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "7 lamps in a park",
     "prompt_id": 19,
-    "category": "object_count",
-    "prompt": "two cats sitting on a windowsill, photorealistic object_count benchmark sample 19",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "count",
+        "count": 7,
+        "text": "exactly 7 lamp(s) are visible",
+        "id": 0
+      }
+    ],
+    "seed": 1253
   },
   {
+    "category": "counting",
+    "checklist": {
+      "objects": [
+        {
+          "name": "chair",
+          "count": 2,
+          "color": null
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "2 chairs on a wooden table",
     "prompt_id": 20,
-    "category": "object_count",
-    "prompt": "seven balloons floating above a city street at sunset",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "count",
+        "count": 2,
+        "text": "exactly 2 chair(s) are visible",
+        "id": 0
+      }
+    ],
+    "seed": 1254
   },
   {
+    "category": "counting",
+    "checklist": {
+      "objects": [
+        {
+          "name": "bird",
+          "count": 3,
+          "color": null
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "3 birds on a wooden table",
     "prompt_id": 21,
-    "category": "spatial_relation",
-    "prompt": "a dog to the left of a bicycle in a park spatial_relation benchmark sample 1",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "count",
+        "count": 3,
+        "text": "exactly 3 bird(s) are visible",
+        "id": 0
+      }
+    ],
+    "seed": 1255
   },
   {
+    "category": "counting",
+    "checklist": {
+      "objects": [
+        {
+          "name": "hat",
+          "count": 2,
+          "color": null
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "2 hats on a white background",
     "prompt_id": 22,
-    "category": "spatial_relation",
-    "prompt": "a cup on top of a notebook next to a laptop",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "count",
+        "count": 2,
+        "text": "exactly 2 hat(s) are visible",
+        "id": 0
+      }
+    ],
+    "seed": 1256
   },
   {
+    "category": "counting",
+    "checklist": {
+      "objects": [
+        {
+          "name": "cup",
+          "count": 7,
+          "color": null
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "7 cups in a park",
     "prompt_id": 23,
-    "category": "spatial_relation",
-    "prompt": "a small plant in front of a blue chair inside a studio",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "count",
+        "count": 7,
+        "text": "exactly 7 cup(s) are visible",
+        "id": 0
+      }
+    ],
+    "seed": 1257
   },
   {
+    "category": "counting",
+    "checklist": {
+      "objects": [
+        {
+          "name": "flower",
+          "count": 2,
+          "color": null
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "2 flowers in a park",
     "prompt_id": 24,
-    "category": "spatial_relation",
-    "prompt": "a teddy bear behind a vase on a dining table spatial_relation benchmark sample 4",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "count",
+        "count": 2,
+        "text": "exactly 2 flower(s) are visible",
+        "id": 0
+      }
+    ],
+    "seed": 1258
   },
   {
+    "category": "counting",
+    "checklist": {
+      "objects": [
+        {
+          "name": "lantern",
+          "count": 7,
+          "color": null
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "7 lanterns on a wooden table",
     "prompt_id": 25,
-    "category": "spatial_relation",
-    "prompt": "a dog to the left of a bicycle in a park",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "count",
+        "count": 7,
+        "text": "exactly 7 lantern(s) are visible",
+        "id": 0
+      }
+    ],
+    "seed": 1259
   },
   {
+    "category": "counting",
+    "checklist": {
+      "objects": [
+        {
+          "name": "chair",
+          "count": 4,
+          "color": null
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "4 chairs on a wooden table",
     "prompt_id": 26,
-    "category": "spatial_relation",
-    "prompt": "a cup on top of a notebook next to a laptop",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "count",
+        "count": 4,
+        "text": "exactly 4 chair(s) are visible",
+        "id": 0
+      }
+    ],
+    "seed": 1260
   },
   {
+    "category": "counting",
+    "checklist": {
+      "objects": [
+        {
+          "name": "bicycle",
+          "count": 3,
+          "color": null
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "3 bicycles in a park",
     "prompt_id": 27,
-    "category": "spatial_relation",
-    "prompt": "a small plant in front of a blue chair inside a studio spatial_relation benchmark sample 7",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "count",
+        "count": 3,
+        "text": "exactly 3 bicycle(s) are visible",
+        "id": 0
+      }
+    ],
+    "seed": 1261
   },
   {
+    "category": "counting",
+    "checklist": {
+      "objects": [
+        {
+          "name": "cat",
+          "count": 6,
+          "color": null
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "6 cats in a park",
     "prompt_id": 28,
-    "category": "spatial_relation",
-    "prompt": "a teddy bear behind a vase on a dining table",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "count",
+        "count": 6,
+        "text": "exactly 6 cat(s) are visible",
+        "id": 0
+      }
+    ],
+    "seed": 1262
   },
   {
+    "category": "counting",
+    "checklist": {
+      "objects": [
+        {
+          "name": "hat",
+          "count": 5,
+          "color": null
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "5 hats in a park",
     "prompt_id": 29,
-    "category": "spatial_relation",
-    "prompt": "a dog to the left of a bicycle in a park",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "count",
+        "count": 5,
+        "text": "exactly 5 hat(s) are visible",
+        "id": 0
+      }
+    ],
+    "seed": 1263
   },
   {
+    "category": "counting",
+    "checklist": {
+      "objects": [
+        {
+          "name": "flower",
+          "count": 5,
+          "color": null
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "5 flowers on a wooden table",
     "prompt_id": 30,
-    "category": "spatial_relation",
-    "prompt": "a cup on top of a notebook next to a laptop spatial_relation benchmark sample 10",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "count",
+        "count": 5,
+        "text": "exactly 5 flower(s) are visible",
+        "id": 0
+      }
+    ],
+    "seed": 1264
   },
   {
+    "category": "spatial",
+    "checklist": {
+      "objects": [
+        {
+          "name": "lamp",
+          "count": 1,
+          "color": null
+        },
+        {
+          "name": "chair",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "lamp",
+          "relation": "behind",
+          "object": "chair"
+        }
+      ],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a lamp behind a chair",
     "prompt_id": 31,
-    "category": "spatial_relation",
-    "prompt": "a small plant in front of a blue chair inside a studio",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "object",
+        "text": "a lamp is present",
+        "id": 0
+      },
+      {
+        "kind": "object",
+        "text": "a chair is present",
+        "id": 1
+      },
+      {
+        "kind": "relation",
+        "text": "the lamp is behind the chair",
+        "id": 2
+      }
+    ],
+    "seed": 1265
   },
   {
+    "category": "spatial",
+    "checklist": {
+      "objects": [
+        {
+          "name": "kite",
+          "count": 1,
+          "color": null
+        },
+        {
+          "name": "flower",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "kite",
+          "relation": "on top of",
+          "object": "flower"
+        }
+      ],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a kite on top of a flower",
     "prompt_id": 32,
-    "category": "spatial_relation",
-    "prompt": "a teddy bear behind a vase on a dining table",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "object",
+        "text": "a kite is present",
+        "id": 0
+      },
+      {
+        "kind": "object",
+        "text": "a flower is present",
+        "id": 1
+      },
+      {
+        "kind": "relation",
+        "text": "the kite is on top of the flower",
+        "id": 2
+      }
+    ],
+    "seed": 1266
   },
   {
+    "category": "spatial",
+    "checklist": {
+      "objects": [
+        {
+          "name": "lantern",
+          "count": 1,
+          "color": null
+        },
+        {
+          "name": "balloon",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "lantern",
+          "relation": "to the right of",
+          "object": "balloon"
+        }
+      ],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a lantern to the right of a balloon",
     "prompt_id": 33,
-    "category": "spatial_relation",
-    "prompt": "a dog to the left of a bicycle in a park spatial_relation benchmark sample 13",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "object",
+        "text": "a lantern is present",
+        "id": 0
+      },
+      {
+        "kind": "object",
+        "text": "a balloon is present",
+        "id": 1
+      },
+      {
+        "kind": "relation",
+        "text": "the lantern is to the right of the balloon",
+        "id": 2
+      }
+    ],
+    "seed": 1267
   },
   {
+    "category": "spatial",
+    "checklist": {
+      "objects": [
+        {
+          "name": "vase",
+          "count": 1,
+          "color": null
+        },
+        {
+          "name": "kite",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "vase",
+          "relation": "to the left of",
+          "object": "kite"
+        }
+      ],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a vase to the left of a kite",
     "prompt_id": 34,
-    "category": "spatial_relation",
-    "prompt": "a cup on top of a notebook next to a laptop",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "object",
+        "text": "a vase is present",
+        "id": 0
+      },
+      {
+        "kind": "object",
+        "text": "a kite is present",
+        "id": 1
+      },
+      {
+        "kind": "relation",
+        "text": "the vase is to the left of the kite",
+        "id": 2
+      }
+    ],
+    "seed": 1268
   },
   {
+    "category": "spatial",
+    "checklist": {
+      "objects": [
+        {
+          "name": "kite",
+          "count": 1,
+          "color": null
+        },
+        {
+          "name": "balloon",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "kite",
+          "relation": "behind",
+          "object": "balloon"
+        }
+      ],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a kite behind a balloon",
     "prompt_id": 35,
-    "category": "spatial_relation",
-    "prompt": "a small plant in front of a blue chair inside a studio",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "object",
+        "text": "a kite is present",
+        "id": 0
+      },
+      {
+        "kind": "object",
+        "text": "a balloon is present",
+        "id": 1
+      },
+      {
+        "kind": "relation",
+        "text": "the kite is behind the balloon",
+        "id": 2
+      }
+    ],
+    "seed": 1269
   },
   {
+    "category": "spatial",
+    "checklist": {
+      "objects": [
+        {
+          "name": "bottle",
+          "count": 1,
+          "color": null
+        },
+        {
+          "name": "lantern",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "bottle",
+          "relation": "to the right of",
+          "object": "lantern"
+        }
+      ],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a bottle to the right of a lantern",
     "prompt_id": 36,
-    "category": "spatial_relation",
-    "prompt": "a teddy bear behind a vase on a dining table spatial_relation benchmark sample 16",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "object",
+        "text": "a bottle is present",
+        "id": 0
+      },
+      {
+        "kind": "object",
+        "text": "a lantern is present",
+        "id": 1
+      },
+      {
+        "kind": "relation",
+        "text": "the bottle is to the right of the lantern",
+        "id": 2
+      }
+    ],
+    "seed": 1270
   },
   {
+    "category": "spatial",
+    "checklist": {
+      "objects": [
+        {
+          "name": "hat",
+          "count": 1,
+          "color": null
+        },
+        {
+          "name": "balloon",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "hat",
+          "relation": "to the right of",
+          "object": "balloon"
+        }
+      ],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a hat to the right of a balloon",
     "prompt_id": 37,
-    "category": "spatial_relation",
-    "prompt": "a dog to the left of a bicycle in a park",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "object",
+        "text": "a hat is present",
+        "id": 0
+      },
+      {
+        "kind": "object",
+        "text": "a balloon is present",
+        "id": 1
+      },
+      {
+        "kind": "relation",
+        "text": "the hat is to the right of the balloon",
+        "id": 2
+      }
+    ],
+    "seed": 1271
   },
   {
+    "category": "spatial",
+    "checklist": {
+      "objects": [
+        {
+          "name": "lantern",
+          "count": 1,
+          "color": null
+        },
+        {
+          "name": "cup",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "lantern",
+          "relation": "on top of",
+          "object": "cup"
+        }
+      ],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a lantern on top of a cup",
     "prompt_id": 38,
-    "category": "spatial_relation",
-    "prompt": "a cup on top of a notebook next to a laptop",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "object",
+        "text": "a lantern is present",
+        "id": 0
+      },
+      {
+        "kind": "object",
+        "text": "a cup is present",
+        "id": 1
+      },
+      {
+        "kind": "relation",
+        "text": "the lantern is on top of the cup",
+        "id": 2
+      }
+    ],
+    "seed": 1272
   },
   {
+    "category": "spatial",
+    "checklist": {
+      "objects": [
+        {
+          "name": "flower",
+          "count": 1,
+          "color": null
+        },
+        {
+          "name": "book",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "flower",
+          "relation": "to the left of",
+          "object": "book"
+        }
+      ],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a flower to the left of a book",
     "prompt_id": 39,
-    "category": "spatial_relation",
-    "prompt": "a small plant in front of a blue chair inside a studio spatial_relation benchmark sample 19",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "object",
+        "text": "a flower is present",
+        "id": 0
+      },
+      {
+        "kind": "object",
+        "text": "a book is present",
+        "id": 1
+      },
+      {
+        "kind": "relation",
+        "text": "the flower is to the left of the book",
+        "id": 2
+      }
+    ],
+    "seed": 1273
   },
   {
+    "category": "spatial",
+    "checklist": {
+      "objects": [
+        {
+          "name": "bottle",
+          "count": 1,
+          "color": null
+        },
+        {
+          "name": "bird",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "bottle",
+          "relation": "to the left of",
+          "object": "bird"
+        }
+      ],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a bottle to the left of a bird",
     "prompt_id": 40,
-    "category": "spatial_relation",
-    "prompt": "a teddy bear behind a vase on a dining table",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "object",
+        "text": "a bottle is present",
+        "id": 0
+      },
+      {
+        "kind": "object",
+        "text": "a bird is present",
+        "id": 1
+      },
+      {
+        "kind": "relation",
+        "text": "the bottle is to the left of the bird",
+        "id": 2
+      }
+    ],
+    "seed": 1274
   },
   {
+    "category": "spatial",
+    "checklist": {
+      "objects": [
+        {
+          "name": "bicycle",
+          "count": 1,
+          "color": null
+        },
+        {
+          "name": "cat",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "bicycle",
+          "relation": "to the right of",
+          "object": "cat"
+        }
+      ],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a bicycle to the right of a cat",
     "prompt_id": 41,
-    "category": "color_attribute",
-    "prompt": "a yellow lemon next to a green cucumber on a white counter color_attribute benchmark sample 1",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "object",
+        "text": "a bicycle is present",
+        "id": 0
+      },
+      {
+        "kind": "object",
+        "text": "a cat is present",
+        "id": 1
+      },
+      {
+        "kind": "relation",
+        "text": "the bicycle is to the right of the cat",
+        "id": 2
+      }
+    ],
+    "seed": 1275
   },
   {
+    "category": "spatial",
+    "checklist": {
+      "objects": [
+        {
+          "name": "kite",
+          "count": 1,
+          "color": null
+        },
+        {
+          "name": "book",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "kite",
+          "relation": "on top of",
+          "object": "book"
+        }
+      ],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a kite on top of a book",
     "prompt_id": 42,
-    "category": "color_attribute",
-    "prompt": "a purple umbrella with a red handle under a cloudy sky",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "object",
+        "text": "a kite is present",
+        "id": 0
+      },
+      {
+        "kind": "object",
+        "text": "a book is present",
+        "id": 1
+      },
+      {
+        "kind": "relation",
+        "text": "the kite is on top of the book",
+        "id": 2
+      }
+    ],
+    "seed": 1276
   },
   {
+    "category": "spatial",
+    "checklist": {
+      "objects": [
+        {
+          "name": "bicycle",
+          "count": 1,
+          "color": null
+        },
+        {
+          "name": "flower",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "bicycle",
+          "relation": "to the left of",
+          "object": "flower"
+        }
+      ],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a bicycle to the left of a flower",
     "prompt_id": 43,
-    "category": "color_attribute",
-    "prompt": "a blue ceramic mug with gold trim on a wooden desk",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "object",
+        "text": "a bicycle is present",
+        "id": 0
+      },
+      {
+        "kind": "object",
+        "text": "a flower is present",
+        "id": 1
+      },
+      {
+        "kind": "relation",
+        "text": "the bicycle is to the left of the flower",
+        "id": 2
+      }
+    ],
+    "seed": 1277
   },
   {
+    "category": "spatial",
+    "checklist": {
+      "objects": [
+        {
+          "name": "lantern",
+          "count": 1,
+          "color": null
+        },
+        {
+          "name": "book",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "lantern",
+          "relation": "behind",
+          "object": "book"
+        }
+      ],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a lantern behind a book",
     "prompt_id": 44,
-    "category": "color_attribute",
-    "prompt": "a black-and-white striped cat staring at a camera color_attribute benchmark sample 4",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "object",
+        "text": "a lantern is present",
+        "id": 0
+      },
+      {
+        "kind": "object",
+        "text": "a book is present",
+        "id": 1
+      },
+      {
+        "kind": "relation",
+        "text": "the lantern is behind the book",
+        "id": 2
+      }
+    ],
+    "seed": 1278
   },
   {
+    "category": "spatial",
+    "checklist": {
+      "objects": [
+        {
+          "name": "bird",
+          "count": 1,
+          "color": null
+        },
+        {
+          "name": "balloon",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "bird",
+          "relation": "behind",
+          "object": "balloon"
+        }
+      ],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a bird behind a balloon",
     "prompt_id": 45,
-    "category": "color_attribute",
-    "prompt": "a yellow lemon next to a green cucumber on a white counter",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "object",
+        "text": "a bird is present",
+        "id": 0
+      },
+      {
+        "kind": "object",
+        "text": "a balloon is present",
+        "id": 1
+      },
+      {
+        "kind": "relation",
+        "text": "the bird is behind the balloon",
+        "id": 2
+      }
+    ],
+    "seed": 1279
   },
   {
+    "category": "spatial",
+    "checklist": {
+      "objects": [
+        {
+          "name": "bird",
+          "count": 1,
+          "color": null
+        },
+        {
+          "name": "flower",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "bird",
+          "relation": "to the right of",
+          "object": "flower"
+        }
+      ],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a bird to the right of a flower",
     "prompt_id": 46,
-    "category": "color_attribute",
-    "prompt": "a purple umbrella with a red handle under a cloudy sky",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "object",
+        "text": "a bird is present",
+        "id": 0
+      },
+      {
+        "kind": "object",
+        "text": "a flower is present",
+        "id": 1
+      },
+      {
+        "kind": "relation",
+        "text": "the bird is to the right of the flower",
+        "id": 2
+      }
+    ],
+    "seed": 1280
   },
   {
+    "category": "spatial",
+    "checklist": {
+      "objects": [
+        {
+          "name": "hat",
+          "count": 1,
+          "color": null
+        },
+        {
+          "name": "bird",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "hat",
+          "relation": "behind",
+          "object": "bird"
+        }
+      ],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a hat behind a bird",
     "prompt_id": 47,
-    "category": "color_attribute",
-    "prompt": "a blue ceramic mug with gold trim on a wooden desk color_attribute benchmark sample 7",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "object",
+        "text": "a hat is present",
+        "id": 0
+      },
+      {
+        "kind": "object",
+        "text": "a bird is present",
+        "id": 1
+      },
+      {
+        "kind": "relation",
+        "text": "the hat is behind the bird",
+        "id": 2
+      }
+    ],
+    "seed": 1281
   },
   {
+    "category": "spatial",
+    "checklist": {
+      "objects": [
+        {
+          "name": "chair",
+          "count": 1,
+          "color": null
+        },
+        {
+          "name": "bird",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "chair",
+          "relation": "on top of",
+          "object": "bird"
+        }
+      ],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a chair on top of a bird",
     "prompt_id": 48,
-    "category": "color_attribute",
-    "prompt": "a black-and-white striped cat staring at a camera",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "object",
+        "text": "a chair is present",
+        "id": 0
+      },
+      {
+        "kind": "object",
+        "text": "a bird is present",
+        "id": 1
+      },
+      {
+        "kind": "relation",
+        "text": "the chair is on top of the bird",
+        "id": 2
+      }
+    ],
+    "seed": 1282
   },
   {
+    "category": "spatial",
+    "checklist": {
+      "objects": [
+        {
+          "name": "cat",
+          "count": 1,
+          "color": null
+        },
+        {
+          "name": "hat",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "cat",
+          "relation": "to the right of",
+          "object": "hat"
+        }
+      ],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a cat to the right of a hat",
     "prompt_id": 49,
-    "category": "color_attribute",
-    "prompt": "a yellow lemon next to a green cucumber on a white counter",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "object",
+        "text": "a cat is present",
+        "id": 0
+      },
+      {
+        "kind": "object",
+        "text": "a hat is present",
+        "id": 1
+      },
+      {
+        "kind": "relation",
+        "text": "the cat is to the right of the hat",
+        "id": 2
+      }
+    ],
+    "seed": 1283
   },
   {
+    "category": "spatial",
+    "checklist": {
+      "objects": [
+        {
+          "name": "lamp",
+          "count": 1,
+          "color": null
+        },
+        {
+          "name": "kite",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "lamp",
+          "relation": "on top of",
+          "object": "kite"
+        }
+      ],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a lamp on top of a kite",
     "prompt_id": 50,
-    "category": "color_attribute",
-    "prompt": "a purple umbrella with a red handle under a cloudy sky color_attribute benchmark sample 10",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "object",
+        "text": "a lamp is present",
+        "id": 0
+      },
+      {
+        "kind": "object",
+        "text": "a kite is present",
+        "id": 1
+      },
+      {
+        "kind": "relation",
+        "text": "the lamp is on top of the kite",
+        "id": 2
+      }
+    ],
+    "seed": 1284
   },
   {
+    "category": "spatial",
+    "checklist": {
+      "objects": [
+        {
+          "name": "cup",
+          "count": 1,
+          "color": null
+        },
+        {
+          "name": "kite",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "cup",
+          "relation": "to the left of",
+          "object": "kite"
+        }
+      ],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a cup to the left of a kite",
     "prompt_id": 51,
-    "category": "color_attribute",
-    "prompt": "a blue ceramic mug with gold trim on a wooden desk",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "object",
+        "text": "a cup is present",
+        "id": 0
+      },
+      {
+        "kind": "object",
+        "text": "a kite is present",
+        "id": 1
+      },
+      {
+        "kind": "relation",
+        "text": "the cup is to the left of the kite",
+        "id": 2
+      }
+    ],
+    "seed": 1285
   },
   {
+    "category": "spatial",
+    "checklist": {
+      "objects": [
+        {
+          "name": "chair",
+          "count": 1,
+          "color": null
+        },
+        {
+          "name": "cup",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "chair",
+          "relation": "to the left of",
+          "object": "cup"
+        }
+      ],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a chair to the left of a cup",
     "prompt_id": 52,
-    "category": "color_attribute",
-    "prompt": "a black-and-white striped cat staring at a camera",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "object",
+        "text": "a chair is present",
+        "id": 0
+      },
+      {
+        "kind": "object",
+        "text": "a cup is present",
+        "id": 1
+      },
+      {
+        "kind": "relation",
+        "text": "the chair is to the left of the cup",
+        "id": 2
+      }
+    ],
+    "seed": 1286
   },
   {
+    "category": "spatial",
+    "checklist": {
+      "objects": [
+        {
+          "name": "dog",
+          "count": 1,
+          "color": null
+        },
+        {
+          "name": "chair",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "dog",
+          "relation": "to the left of",
+          "object": "chair"
+        }
+      ],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a dog to the left of a chair",
     "prompt_id": 53,
-    "category": "color_attribute",
-    "prompt": "a yellow lemon next to a green cucumber on a white counter color_attribute benchmark sample 13",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "object",
+        "text": "a dog is present",
+        "id": 0
+      },
+      {
+        "kind": "object",
+        "text": "a chair is present",
+        "id": 1
+      },
+      {
+        "kind": "relation",
+        "text": "the dog is to the left of the chair",
+        "id": 2
+      }
+    ],
+    "seed": 1287
   },
   {
+    "category": "spatial",
+    "checklist": {
+      "objects": [
+        {
+          "name": "cat",
+          "count": 1,
+          "color": null
+        },
+        {
+          "name": "book",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "cat",
+          "relation": "to the right of",
+          "object": "book"
+        }
+      ],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a cat to the right of a book",
     "prompt_id": 54,
-    "category": "color_attribute",
-    "prompt": "a purple umbrella with a red handle under a cloudy sky",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "object",
+        "text": "a cat is present",
+        "id": 0
+      },
+      {
+        "kind": "object",
+        "text": "a book is present",
+        "id": 1
+      },
+      {
+        "kind": "relation",
+        "text": "the cat is to the right of the book",
+        "id": 2
+      }
+    ],
+    "seed": 1288
   },
   {
+    "category": "spatial",
+    "checklist": {
+      "objects": [
+        {
+          "name": "bird",
+          "count": 1,
+          "color": null
+        },
+        {
+          "name": "cat",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "bird",
+          "relation": "behind",
+          "object": "cat"
+        }
+      ],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a bird behind a cat",
     "prompt_id": 55,
-    "category": "color_attribute",
-    "prompt": "a blue ceramic mug with gold trim on a wooden desk",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "object",
+        "text": "a bird is present",
+        "id": 0
+      },
+      {
+        "kind": "object",
+        "text": "a cat is present",
+        "id": 1
+      },
+      {
+        "kind": "relation",
+        "text": "the bird is behind the cat",
+        "id": 2
+      }
+    ],
+    "seed": 1289
   },
   {
+    "category": "spatial",
+    "checklist": {
+      "objects": [
+        {
+          "name": "bottle",
+          "count": 1,
+          "color": null
+        },
+        {
+          "name": "dog",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "bottle",
+          "relation": "to the right of",
+          "object": "dog"
+        }
+      ],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a bottle to the right of a dog",
     "prompt_id": 56,
-    "category": "color_attribute",
-    "prompt": "a black-and-white striped cat staring at a camera color_attribute benchmark sample 16",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "object",
+        "text": "a bottle is present",
+        "id": 0
+      },
+      {
+        "kind": "object",
+        "text": "a dog is present",
+        "id": 1
+      },
+      {
+        "kind": "relation",
+        "text": "the bottle is to the right of the dog",
+        "id": 2
+      }
+    ],
+    "seed": 1290
   },
   {
+    "category": "spatial",
+    "checklist": {
+      "objects": [
+        {
+          "name": "bottle",
+          "count": 1,
+          "color": null
+        },
+        {
+          "name": "lantern",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "bottle",
+          "relation": "on top of",
+          "object": "lantern"
+        }
+      ],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a bottle on top of a lantern",
     "prompt_id": 57,
-    "category": "color_attribute",
-    "prompt": "a yellow lemon next to a green cucumber on a white counter",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "object",
+        "text": "a bottle is present",
+        "id": 0
+      },
+      {
+        "kind": "object",
+        "text": "a lantern is present",
+        "id": 1
+      },
+      {
+        "kind": "relation",
+        "text": "the bottle is on top of the lantern",
+        "id": 2
+      }
+    ],
+    "seed": 1291
   },
   {
+    "category": "spatial",
+    "checklist": {
+      "objects": [
+        {
+          "name": "vase",
+          "count": 1,
+          "color": null
+        },
+        {
+          "name": "dog",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "vase",
+          "relation": "to the right of",
+          "object": "dog"
+        }
+      ],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a vase to the right of a dog",
     "prompt_id": 58,
-    "category": "color_attribute",
-    "prompt": "a purple umbrella with a red handle under a cloudy sky",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "object",
+        "text": "a vase is present",
+        "id": 0
+      },
+      {
+        "kind": "object",
+        "text": "a dog is present",
+        "id": 1
+      },
+      {
+        "kind": "relation",
+        "text": "the vase is to the right of the dog",
+        "id": 2
+      }
+    ],
+    "seed": 1292
   },
   {
+    "category": "spatial",
+    "checklist": {
+      "objects": [
+        {
+          "name": "book",
+          "count": 1,
+          "color": null
+        },
+        {
+          "name": "lantern",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "book",
+          "relation": "on top of",
+          "object": "lantern"
+        }
+      ],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a book on top of a lantern",
     "prompt_id": 59,
-    "category": "color_attribute",
-    "prompt": "a blue ceramic mug with gold trim on a wooden desk color_attribute benchmark sample 19",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "object",
+        "text": "a book is present",
+        "id": 0
+      },
+      {
+        "kind": "object",
+        "text": "a lantern is present",
+        "id": 1
+      },
+      {
+        "kind": "relation",
+        "text": "the book is on top of the lantern",
+        "id": 2
+      }
+    ],
+    "seed": 1293
   },
   {
+    "category": "spatial",
+    "checklist": {
+      "objects": [
+        {
+          "name": "vase",
+          "count": 1,
+          "color": null
+        },
+        {
+          "name": "bottle",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "vase",
+          "relation": "on top of",
+          "object": "bottle"
+        }
+      ],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a vase on top of a bottle",
     "prompt_id": 60,
-    "category": "color_attribute",
-    "prompt": "a black-and-white striped cat staring at a camera",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "object",
+        "text": "a vase is present",
+        "id": 0
+      },
+      {
+        "kind": "object",
+        "text": "a bottle is present",
+        "id": 1
+      },
+      {
+        "kind": "relation",
+        "text": "the vase is on top of the bottle",
+        "id": 2
+      }
+    ],
+    "seed": 1294
   },
   {
+    "category": "color_binding",
+    "checklist": {
+      "objects": [
+        {
+          "name": "kite",
+          "count": 1,
+          "color": "white"
+        },
+        {
+          "name": "balloon",
+          "count": 1,
+          "color": "green"
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a white kite and a green balloon",
     "prompt_id": 61,
-    "category": "text_rendering",
-    "prompt": "a street sign that says 'WELCOME HOME' in bold modern type text_rendering benchmark sample 1",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "color",
+        "text": "the kite is white",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the balloon is green",
+        "id": 1
+      }
+    ],
+    "seed": 1295
   },
   {
+    "category": "color_binding",
+    "checklist": {
+      "objects": [
+        {
+          "name": "bird",
+          "count": 1,
+          "color": "white"
+        },
+        {
+          "name": "bicycle",
+          "count": 1,
+          "color": "red"
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a white bird and a red bicycle",
     "prompt_id": 62,
-    "category": "text_rendering",
-    "prompt": "a coffee cup with the text 'KEEP GOING' printed on it",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "color",
+        "text": "the bird is white",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the bicycle is red",
+        "id": 1
+      }
+    ],
+    "seed": 1296
   },
   {
+    "category": "color_binding",
+    "checklist": {
+      "objects": [
+        {
+          "name": "hat",
+          "count": 1,
+          "color": "yellow"
+        },
+        {
+          "name": "flower",
+          "count": 1,
+          "color": "white"
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a yellow hat and a white flower",
     "prompt_id": 63,
-    "category": "text_rendering",
-    "prompt": "a book cover reading 'MIRROR CITY' with neon letters",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "color",
+        "text": "the hat is yellow",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the flower is white",
+        "id": 1
+      }
+    ],
+    "seed": 1297
   },
   {
+    "category": "color_binding",
+    "checklist": {
+      "objects": [
+        {
+          "name": "lamp",
+          "count": 1,
+          "color": "white"
+        },
+        {
+          "name": "chair",
+          "count": 1,
+          "color": "green"
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a white lamp and a green chair",
     "prompt_id": 64,
-    "category": "text_rendering",
-    "prompt": "a chalkboard with the phrase 'AI LAB' written in neat handwriting text_rendering benchmark sample 4",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "color",
+        "text": "the lamp is white",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the chair is green",
+        "id": 1
+      }
+    ],
+    "seed": 1298
   },
   {
+    "category": "color_binding",
+    "checklist": {
+      "objects": [
+        {
+          "name": "apple",
+          "count": 1,
+          "color": "black"
+        },
+        {
+          "name": "book",
+          "count": 1,
+          "color": "yellow"
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a black apple and a yellow book",
     "prompt_id": 65,
-    "category": "text_rendering",
-    "prompt": "a street sign that says 'WELCOME HOME' in bold modern type",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "color",
+        "text": "the apple is black",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the book is yellow",
+        "id": 1
+      }
+    ],
+    "seed": 1299
   },
   {
+    "category": "color_binding",
+    "checklist": {
+      "objects": [
+        {
+          "name": "bicycle",
+          "count": 1,
+          "color": "black"
+        },
+        {
+          "name": "vase",
+          "count": 1,
+          "color": "blue"
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a black bicycle and a blue vase",
     "prompt_id": 66,
-    "category": "text_rendering",
-    "prompt": "a coffee cup with the text 'KEEP GOING' printed on it",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "color",
+        "text": "the bicycle is black",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the vase is blue",
+        "id": 1
+      }
+    ],
+    "seed": 1300
   },
   {
+    "category": "color_binding",
+    "checklist": {
+      "objects": [
+        {
+          "name": "bottle",
+          "count": 1,
+          "color": "green"
+        },
+        {
+          "name": "lamp",
+          "count": 1,
+          "color": "black"
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a green bottle and a black lamp",
     "prompt_id": 67,
-    "category": "text_rendering",
-    "prompt": "a book cover reading 'MIRROR CITY' with neon letters text_rendering benchmark sample 7",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "color",
+        "text": "the bottle is green",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the lamp is black",
+        "id": 1
+      }
+    ],
+    "seed": 1301
   },
   {
+    "category": "color_binding",
+    "checklist": {
+      "objects": [
+        {
+          "name": "hat",
+          "count": 1,
+          "color": "yellow"
+        },
+        {
+          "name": "kite",
+          "count": 1,
+          "color": "blue"
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a yellow hat and a blue kite",
     "prompt_id": 68,
-    "category": "text_rendering",
-    "prompt": "a chalkboard with the phrase 'AI LAB' written in neat handwriting",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "color",
+        "text": "the hat is yellow",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the kite is blue",
+        "id": 1
+      }
+    ],
+    "seed": 1302
   },
   {
+    "category": "color_binding",
+    "checklist": {
+      "objects": [
+        {
+          "name": "kite",
+          "count": 1,
+          "color": "black"
+        },
+        {
+          "name": "flower",
+          "count": 1,
+          "color": "pink"
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a black kite and a pink flower",
     "prompt_id": 69,
-    "category": "text_rendering",
-    "prompt": "a street sign that says 'WELCOME HOME' in bold modern type",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "color",
+        "text": "the kite is black",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the flower is pink",
+        "id": 1
+      }
+    ],
+    "seed": 1303
   },
   {
+    "category": "color_binding",
+    "checklist": {
+      "objects": [
+        {
+          "name": "apple",
+          "count": 1,
+          "color": "blue"
+        },
+        {
+          "name": "flower",
+          "count": 1,
+          "color": "red"
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a blue apple and a red flower",
     "prompt_id": 70,
-    "category": "text_rendering",
-    "prompt": "a coffee cup with the text 'KEEP GOING' printed on it text_rendering benchmark sample 10",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "color",
+        "text": "the apple is blue",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the flower is red",
+        "id": 1
+      }
+    ],
+    "seed": 1304
   },
   {
+    "category": "color_binding",
+    "checklist": {
+      "objects": [
+        {
+          "name": "hat",
+          "count": 1,
+          "color": "blue"
+        },
+        {
+          "name": "lamp",
+          "count": 1,
+          "color": "black"
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a blue hat and a black lamp",
     "prompt_id": 71,
-    "category": "text_rendering",
-    "prompt": "a book cover reading 'MIRROR CITY' with neon letters",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "color",
+        "text": "the hat is blue",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the lamp is black",
+        "id": 1
+      }
+    ],
+    "seed": 1305
   },
   {
+    "category": "color_binding",
+    "checklist": {
+      "objects": [
+        {
+          "name": "dog",
+          "count": 1,
+          "color": "purple"
+        },
+        {
+          "name": "hat",
+          "count": 1,
+          "color": "green"
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a purple dog and a green hat",
     "prompt_id": 72,
-    "category": "text_rendering",
-    "prompt": "a chalkboard with the phrase 'AI LAB' written in neat handwriting",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "color",
+        "text": "the dog is purple",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the hat is green",
+        "id": 1
+      }
+    ],
+    "seed": 1306
   },
   {
+    "category": "color_binding",
+    "checklist": {
+      "objects": [
+        {
+          "name": "dog",
+          "count": 1,
+          "color": "yellow"
+        },
+        {
+          "name": "bicycle",
+          "count": 1,
+          "color": "purple"
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a yellow dog and a purple bicycle",
     "prompt_id": 73,
-    "category": "text_rendering",
-    "prompt": "a street sign that says 'WELCOME HOME' in bold modern type text_rendering benchmark sample 13",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "color",
+        "text": "the dog is yellow",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the bicycle is purple",
+        "id": 1
+      }
+    ],
+    "seed": 1307
   },
   {
+    "category": "color_binding",
+    "checklist": {
+      "objects": [
+        {
+          "name": "lantern",
+          "count": 1,
+          "color": "yellow"
+        },
+        {
+          "name": "book",
+          "count": 1,
+          "color": "green"
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a yellow lantern and a green book",
     "prompt_id": 74,
-    "category": "text_rendering",
-    "prompt": "a coffee cup with the text 'KEEP GOING' printed on it",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "color",
+        "text": "the lantern is yellow",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the book is green",
+        "id": 1
+      }
+    ],
+    "seed": 1308
   },
   {
+    "category": "color_binding",
+    "checklist": {
+      "objects": [
+        {
+          "name": "kite",
+          "count": 1,
+          "color": "pink"
+        },
+        {
+          "name": "dog",
+          "count": 1,
+          "color": "yellow"
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a pink kite and a yellow dog",
     "prompt_id": 75,
-    "category": "text_rendering",
-    "prompt": "a book cover reading 'MIRROR CITY' with neon letters",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "color",
+        "text": "the kite is pink",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the dog is yellow",
+        "id": 1
+      }
+    ],
+    "seed": 1309
   },
   {
+    "category": "color_binding",
+    "checklist": {
+      "objects": [
+        {
+          "name": "lantern",
+          "count": 1,
+          "color": "blue"
+        },
+        {
+          "name": "book",
+          "count": 1,
+          "color": "white"
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a blue lantern and a white book",
     "prompt_id": 76,
-    "category": "text_rendering",
-    "prompt": "a chalkboard with the phrase 'AI LAB' written in neat handwriting text_rendering benchmark sample 16",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "color",
+        "text": "the lantern is blue",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the book is white",
+        "id": 1
+      }
+    ],
+    "seed": 1310
   },
   {
+    "category": "color_binding",
+    "checklist": {
+      "objects": [
+        {
+          "name": "candle",
+          "count": 1,
+          "color": "pink"
+        },
+        {
+          "name": "lantern",
+          "count": 1,
+          "color": "blue"
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a pink candle and a blue lantern",
     "prompt_id": 77,
-    "category": "text_rendering",
-    "prompt": "a street sign that says 'WELCOME HOME' in bold modern type",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "color",
+        "text": "the candle is pink",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the lantern is blue",
+        "id": 1
+      }
+    ],
+    "seed": 1311
   },
   {
+    "category": "color_binding",
+    "checklist": {
+      "objects": [
+        {
+          "name": "apple",
+          "count": 1,
+          "color": "red"
+        },
+        {
+          "name": "bottle",
+          "count": 1,
+          "color": "pink"
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a red apple and a pink bottle",
     "prompt_id": 78,
-    "category": "text_rendering",
-    "prompt": "a coffee cup with the text 'KEEP GOING' printed on it",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "color",
+        "text": "the apple is red",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the bottle is pink",
+        "id": 1
+      }
+    ],
+    "seed": 1312
   },
   {
+    "category": "color_binding",
+    "checklist": {
+      "objects": [
+        {
+          "name": "cat",
+          "count": 1,
+          "color": "green"
+        },
+        {
+          "name": "bird",
+          "count": 1,
+          "color": "black"
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a green cat and a black bird",
     "prompt_id": 79,
-    "category": "text_rendering",
-    "prompt": "a book cover reading 'MIRROR CITY' with neon letters text_rendering benchmark sample 19",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "color",
+        "text": "the cat is green",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the bird is black",
+        "id": 1
+      }
+    ],
+    "seed": 1313
   },
   {
+    "category": "color_binding",
+    "checklist": {
+      "objects": [
+        {
+          "name": "kite",
+          "count": 1,
+          "color": "white"
+        },
+        {
+          "name": "hat",
+          "count": 1,
+          "color": "purple"
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a white kite and a purple hat",
     "prompt_id": 80,
-    "category": "text_rendering",
-    "prompt": "a chalkboard with the phrase 'AI LAB' written in neat handwriting",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "color",
+        "text": "the kite is white",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the hat is purple",
+        "id": 1
+      }
+    ],
+    "seed": 1314
   },
   {
+    "category": "color_binding",
+    "checklist": {
+      "objects": [
+        {
+          "name": "book",
+          "count": 1,
+          "color": "purple"
+        },
+        {
+          "name": "bicycle",
+          "count": 1,
+          "color": "pink"
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a purple book and a pink bicycle",
     "prompt_id": 81,
-    "category": "style_composition",
-    "prompt": "cinematic portrait of a chef in a warm kitchen, shallow depth of field style_composition benchmark sample 1",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "color",
+        "text": "the book is purple",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the bicycle is pink",
+        "id": 1
+      }
+    ],
+    "seed": 1315
   },
   {
+    "category": "color_binding",
+    "checklist": {
+      "objects": [
+        {
+          "name": "lamp",
+          "count": 1,
+          "color": "pink"
+        },
+        {
+          "name": "candle",
+          "count": 1,
+          "color": "purple"
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a pink lamp and a purple candle",
     "prompt_id": 82,
-    "category": "style_composition",
-    "prompt": "watercolor painting of a mountain lake at sunrise, soft brush strokes",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "color",
+        "text": "the lamp is pink",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the candle is purple",
+        "id": 1
+      }
+    ],
+    "seed": 1316
   },
   {
+    "category": "color_binding",
+    "checklist": {
+      "objects": [
+        {
+          "name": "book",
+          "count": 1,
+          "color": "pink"
+        },
+        {
+          "name": "apple",
+          "count": 1,
+          "color": "white"
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a pink book and a white apple",
     "prompt_id": 83,
-    "category": "style_composition",
-    "prompt": "isometric 3D office workspace with large glass windows, minimalistic design",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "color",
+        "text": "the book is pink",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the apple is white",
+        "id": 1
+      }
+    ],
+    "seed": 1317
   },
   {
+    "category": "color_binding",
+    "checklist": {
+      "objects": [
+        {
+          "name": "candle",
+          "count": 1,
+          "color": "black"
+        },
+        {
+          "name": "chair",
+          "count": 1,
+          "color": "yellow"
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a black candle and a yellow chair",
     "prompt_id": 84,
-    "category": "style_composition",
-    "prompt": "anime-style city alley at night with neon reflections and rainy pavement style_composition benchmark sample 4",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "color",
+        "text": "the candle is black",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the chair is yellow",
+        "id": 1
+      }
+    ],
+    "seed": 1318
   },
   {
+    "category": "color_binding",
+    "checklist": {
+      "objects": [
+        {
+          "name": "cup",
+          "count": 1,
+          "color": "green"
+        },
+        {
+          "name": "book",
+          "count": 1,
+          "color": "purple"
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a green cup and a purple book",
     "prompt_id": 85,
-    "category": "style_composition",
-    "prompt": "cinematic portrait of a chef in a warm kitchen, shallow depth of field",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "color",
+        "text": "the cup is green",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the book is purple",
+        "id": 1
+      }
+    ],
+    "seed": 1319
   },
   {
+    "category": "color_binding",
+    "checklist": {
+      "objects": [
+        {
+          "name": "candle",
+          "count": 1,
+          "color": "white"
+        },
+        {
+          "name": "chair",
+          "count": 1,
+          "color": "black"
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a white candle and a black chair",
     "prompt_id": 86,
-    "category": "style_composition",
-    "prompt": "watercolor painting of a mountain lake at sunrise, soft brush strokes",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "color",
+        "text": "the candle is white",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the chair is black",
+        "id": 1
+      }
+    ],
+    "seed": 1320
   },
   {
+    "category": "color_binding",
+    "checklist": {
+      "objects": [
+        {
+          "name": "dog",
+          "count": 1,
+          "color": "black"
+        },
+        {
+          "name": "cup",
+          "count": 1,
+          "color": "red"
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a black dog and a red cup",
     "prompt_id": 87,
-    "category": "style_composition",
-    "prompt": "isometric 3D office workspace with large glass windows, minimalistic design style_composition benchmark sample 7",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "color",
+        "text": "the dog is black",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the cup is red",
+        "id": 1
+      }
+    ],
+    "seed": 1321
   },
   {
+    "category": "color_binding",
+    "checklist": {
+      "objects": [
+        {
+          "name": "hat",
+          "count": 1,
+          "color": "pink"
+        },
+        {
+          "name": "book",
+          "count": 1,
+          "color": "white"
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a pink hat and a white book",
     "prompt_id": 88,
-    "category": "style_composition",
-    "prompt": "anime-style city alley at night with neon reflections and rainy pavement",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "color",
+        "text": "the hat is pink",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the book is white",
+        "id": 1
+      }
+    ],
+    "seed": 1322
   },
   {
+    "category": "color_binding",
+    "checklist": {
+      "objects": [
+        {
+          "name": "vase",
+          "count": 1,
+          "color": "blue"
+        },
+        {
+          "name": "cat",
+          "count": 1,
+          "color": "green"
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a blue vase and a green cat",
     "prompt_id": 89,
-    "category": "style_composition",
-    "prompt": "cinematic portrait of a chef in a warm kitchen, shallow depth of field",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "color",
+        "text": "the vase is blue",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the cat is green",
+        "id": 1
+      }
+    ],
+    "seed": 1323
   },
   {
+    "category": "color_binding",
+    "checklist": {
+      "objects": [
+        {
+          "name": "candle",
+          "count": 1,
+          "color": "pink"
+        },
+        {
+          "name": "bird",
+          "count": 1,
+          "color": "purple"
+        }
+      ],
+      "relations": [],
+      "text": [],
+      "style": ""
+    },
+    "prompt": "a pink candle and a purple bird",
     "prompt_id": 90,
-    "category": "style_composition",
-    "prompt": "watercolor painting of a mountain lake at sunrise, soft brush strokes style_composition benchmark sample 10",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "color",
+        "text": "the candle is pink",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the bird is purple",
+        "id": 1
+      }
+    ],
+    "seed": 1324
   },
   {
+    "category": "text_rendering",
+    "checklist": {
+      "objects": [],
+      "relations": [],
+      "text": [
+        "PEACE"
+      ],
+      "style": ""
+    },
+    "prompt": "a neon sign with the text 'PEACE'",
     "prompt_id": 91,
-    "category": "style_composition",
-    "prompt": "isometric 3D office workspace with large glass windows, minimalistic design",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "text",
+        "text": "the text 'PEACE' is rendered legibly and spelled correctly",
+        "id": 0
+      }
+    ],
+    "seed": 1325
   },
   {
+    "category": "text_rendering",
+    "checklist": {
+      "objects": [],
+      "relations": [],
+      "text": [
+        "OPEN"
+      ],
+      "style": ""
+    },
+    "prompt": "a street sign with the text 'OPEN'",
     "prompt_id": 92,
-    "category": "style_composition",
-    "prompt": "anime-style city alley at night with neon reflections and rainy pavement",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "text",
+        "text": "the text 'OPEN' is rendered legibly and spelled correctly",
+        "id": 0
+      }
+    ],
+    "seed": 1326
   },
   {
+    "category": "text_rendering",
+    "checklist": {
+      "objects": [],
+      "relations": [],
+      "text": [
+        "STOP"
+      ],
+      "style": ""
+    },
+    "prompt": "a coffee cup with the text 'STOP'",
     "prompt_id": 93,
-    "category": "style_composition",
-    "prompt": "cinematic portrait of a chef in a warm kitchen, shallow depth of field style_composition benchmark sample 13",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "text",
+        "text": "the text 'STOP' is rendered legibly and spelled correctly",
+        "id": 0
+      }
+    ],
+    "seed": 1327
   },
   {
+    "category": "text_rendering",
+    "checklist": {
+      "objects": [],
+      "relations": [],
+      "text": [
+        "NEW"
+      ],
+      "style": ""
+    },
+    "prompt": "a poster with the text 'NEW'",
     "prompt_id": 94,
-    "category": "style_composition",
-    "prompt": "watercolor painting of a mountain lake at sunrise, soft brush strokes",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "text",
+        "text": "the text 'NEW' is rendered legibly and spelled correctly",
+        "id": 0
+      }
+    ],
+    "seed": 1328
   },
   {
+    "category": "text_rendering",
+    "checklist": {
+      "objects": [],
+      "relations": [],
+      "text": [
+        "FRESH"
+      ],
+      "style": ""
+    },
+    "prompt": "a book cover with the text 'FRESH'",
     "prompt_id": 95,
-    "category": "style_composition",
-    "prompt": "isometric 3D office workspace with large glass windows, minimalistic design",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "text",
+        "text": "the text 'FRESH' is rendered legibly and spelled correctly",
+        "id": 0
+      }
+    ],
+    "seed": 1329
   },
   {
+    "category": "text_rendering",
+    "checklist": {
+      "objects": [],
+      "relations": [],
+      "text": [
+        "JAZZ"
+      ],
+      "style": ""
+    },
+    "prompt": "a chalkboard with the text 'JAZZ'",
     "prompt_id": 96,
-    "category": "style_composition",
-    "prompt": "anime-style city alley at night with neon reflections and rainy pavement style_composition benchmark sample 16",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "text",
+        "text": "the text 'JAZZ' is rendered legibly and spelled correctly",
+        "id": 0
+      }
+    ],
+    "seed": 1330
   },
   {
+    "category": "text_rendering",
+    "checklist": {
+      "objects": [],
+      "relations": [],
+      "text": [
+        "SALE"
+      ],
+      "style": ""
+    },
+    "prompt": "a t-shirt with the text 'SALE'",
     "prompt_id": 97,
-    "category": "style_composition",
-    "prompt": "cinematic portrait of a chef in a warm kitchen, shallow depth of field",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "text",
+        "text": "the text 'SALE' is rendered legibly and spelled correctly",
+        "id": 0
+      }
+    ],
+    "seed": 1331
   },
   {
+    "category": "text_rendering",
+    "checklist": {
+      "objects": [],
+      "relations": [],
+      "text": [
+        "HOME"
+      ],
+      "style": ""
+    },
+    "prompt": "a poster with the text 'HOME'",
     "prompt_id": 98,
-    "category": "style_composition",
-    "prompt": "watercolor painting of a mountain lake at sunrise, soft brush strokes",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "text",
+        "text": "the text 'HOME' is rendered legibly and spelled correctly",
+        "id": 0
+      }
+    ],
+    "seed": 1332
   },
   {
+    "category": "text_rendering",
+    "checklist": {
+      "objects": [],
+      "relations": [],
+      "text": [
+        "AI LAB"
+      ],
+      "style": ""
+    },
+    "prompt": "a coffee cup with the text 'AI LAB'",
     "prompt_id": 99,
-    "category": "style_composition",
-    "prompt": "isometric 3D office workspace with large glass windows, minimalistic design style_composition benchmark sample 19",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "text",
+        "text": "the text 'AI LAB' is rendered legibly and spelled correctly",
+        "id": 0
+      }
+    ],
+    "seed": 1333
   },
   {
+    "category": "text_rendering",
+    "checklist": {
+      "objects": [],
+      "relations": [],
+      "text": [
+        "SALE"
+      ],
+      "style": ""
+    },
+    "prompt": "a chalkboard with the text 'SALE'",
     "prompt_id": 100,
-    "category": "style_composition",
-    "prompt": "anime-style city alley at night with neon reflections and rainy pavement",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "text",
+        "text": "the text 'SALE' is rendered legibly and spelled correctly",
+        "id": 0
+      }
+    ],
+    "seed": 1334
   },
   {
+    "category": "text_rendering",
+    "checklist": {
+      "objects": [],
+      "relations": [],
+      "text": [
+        "COFFEE"
+      ],
+      "style": ""
+    },
+    "prompt": "a book cover with the text 'COFFEE'",
     "prompt_id": 101,
-    "category": "attribute_binding",
-    "prompt": "a red bicycle with a blue basket beside a white wall attribute_binding benchmark sample 1",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "text",
+        "text": "the text 'COFFEE' is rendered legibly and spelled correctly",
+        "id": 0
+      }
+    ],
+    "seed": 1335
   },
   {
+    "category": "text_rendering",
+    "checklist": {
+      "objects": [],
+      "relations": [],
+      "text": [
+        "MIRROR CITY"
+      ],
+      "style": ""
+    },
+    "prompt": "a shop window with the text 'MIRROR CITY'",
     "prompt_id": 102,
-    "category": "attribute_binding",
-    "prompt": "a striped green shirt on a person holding a yellow umbrella",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "text",
+        "text": "the text 'MIRROR CITY' is rendered legibly and spelled correctly",
+        "id": 0
+      }
+    ],
+    "seed": 1336
   },
   {
+    "category": "text_rendering",
+    "checklist": {
+      "objects": [],
+      "relations": [],
+      "text": [
+        "OPEN"
+      ],
+      "style": ""
+    },
+    "prompt": "a neon sign with the text 'OPEN'",
     "prompt_id": 103,
-    "category": "attribute_binding",
-    "prompt": "a silver teapot with a black handle and a white flower decoration",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "text",
+        "text": "the text 'OPEN' is rendered legibly and spelled correctly",
+        "id": 0
+      }
+    ],
+    "seed": 1337
   },
   {
+    "category": "text_rendering",
+    "checklist": {
+      "objects": [],
+      "relations": [],
+      "text": [
+        "HOME"
+      ],
+      "style": ""
+    },
+    "prompt": "a t-shirt with the text 'HOME'",
     "prompt_id": 104,
-    "category": "attribute_binding",
-    "prompt": "a pink sofa with a brown wooden frame in a cozy room attribute_binding benchmark sample 4",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "text",
+        "text": "the text 'HOME' is rendered legibly and spelled correctly",
+        "id": 0
+      }
+    ],
+    "seed": 1338
   },
   {
+    "category": "text_rendering",
+    "checklist": {
+      "objects": [],
+      "relations": [],
+      "text": [
+        "MENU"
+      ],
+      "style": ""
+    },
+    "prompt": "a t-shirt with the text 'MENU'",
     "prompt_id": 105,
-    "category": "attribute_binding",
-    "prompt": "a red bicycle with a blue basket beside a white wall",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "text",
+        "text": "the text 'MENU' is rendered legibly and spelled correctly",
+        "id": 0
+      }
+    ],
+    "seed": 1339
   },
   {
+    "category": "text_rendering",
+    "checklist": {
+      "objects": [],
+      "relations": [],
+      "text": [
+        "HELLO"
+      ],
+      "style": ""
+    },
+    "prompt": "a shop window with the text 'HELLO'",
     "prompt_id": 106,
-    "category": "attribute_binding",
-    "prompt": "a striped green shirt on a person holding a yellow umbrella",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "text",
+        "text": "the text 'HELLO' is rendered legibly and spelled correctly",
+        "id": 0
+      }
+    ],
+    "seed": 1340
   },
   {
+    "category": "text_rendering",
+    "checklist": {
+      "objects": [],
+      "relations": [],
+      "text": [
+        "EXIT"
+      ],
+      "style": ""
+    },
+    "prompt": "a coffee cup with the text 'EXIT'",
     "prompt_id": 107,
-    "category": "attribute_binding",
-    "prompt": "a silver teapot with a black handle and a white flower decoration attribute_binding benchmark sample 7",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "text",
+        "text": "the text 'EXIT' is rendered legibly and spelled correctly",
+        "id": 0
+      }
+    ],
+    "seed": 1341
   },
   {
+    "category": "text_rendering",
+    "checklist": {
+      "objects": [],
+      "relations": [],
+      "text": [
+        "OPEN"
+      ],
+      "style": ""
+    },
+    "prompt": "a chalkboard with the text 'OPEN'",
     "prompt_id": 108,
-    "category": "attribute_binding",
-    "prompt": "a pink sofa with a brown wooden frame in a cozy room",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "text",
+        "text": "the text 'OPEN' is rendered legibly and spelled correctly",
+        "id": 0
+      }
+    ],
+    "seed": 1342
   },
   {
+    "category": "text_rendering",
+    "checklist": {
+      "objects": [],
+      "relations": [],
+      "text": [
+        "HOME"
+      ],
+      "style": ""
+    },
+    "prompt": "a book cover with the text 'HOME'",
     "prompt_id": 109,
-    "category": "attribute_binding",
-    "prompt": "a red bicycle with a blue basket beside a white wall",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "text",
+        "text": "the text 'HOME' is rendered legibly and spelled correctly",
+        "id": 0
+      }
+    ],
+    "seed": 1343
   },
   {
+    "category": "text_rendering",
+    "checklist": {
+      "objects": [],
+      "relations": [],
+      "text": [
+        "FRESH"
+      ],
+      "style": ""
+    },
+    "prompt": "a shop window with the text 'FRESH'",
     "prompt_id": 110,
-    "category": "attribute_binding",
-    "prompt": "a striped green shirt on a person holding a yellow umbrella attribute_binding benchmark sample 10",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "text",
+        "text": "the text 'FRESH' is rendered legibly and spelled correctly",
+        "id": 0
+      }
+    ],
+    "seed": 1344
   },
   {
+    "category": "text_rendering",
+    "checklist": {
+      "objects": [],
+      "relations": [],
+      "text": [
+        "HOME"
+      ],
+      "style": ""
+    },
+    "prompt": "a shop window with the text 'HOME'",
     "prompt_id": 111,
-    "category": "attribute_binding",
-    "prompt": "a silver teapot with a black handle and a white flower decoration",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "text",
+        "text": "the text 'HOME' is rendered legibly and spelled correctly",
+        "id": 0
+      }
+    ],
+    "seed": 1345
   },
   {
+    "category": "text_rendering",
+    "checklist": {
+      "objects": [],
+      "relations": [],
+      "text": [
+        "AI LAB"
+      ],
+      "style": ""
+    },
+    "prompt": "a neon sign with the text 'AI LAB'",
     "prompt_id": 112,
-    "category": "attribute_binding",
-    "prompt": "a pink sofa with a brown wooden frame in a cozy room",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "text",
+        "text": "the text 'AI LAB' is rendered legibly and spelled correctly",
+        "id": 0
+      }
+    ],
+    "seed": 1346
   },
   {
+    "category": "text_rendering",
+    "checklist": {
+      "objects": [],
+      "relations": [],
+      "text": [
+        "AI LAB"
+      ],
+      "style": ""
+    },
+    "prompt": "a street sign with the text 'AI LAB'",
     "prompt_id": 113,
-    "category": "attribute_binding",
-    "prompt": "a red bicycle with a blue basket beside a white wall attribute_binding benchmark sample 13",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "text",
+        "text": "the text 'AI LAB' is rendered legibly and spelled correctly",
+        "id": 0
+      }
+    ],
+    "seed": 1347
   },
   {
+    "category": "text_rendering",
+    "checklist": {
+      "objects": [],
+      "relations": [],
+      "text": [
+        "MENU"
+      ],
+      "style": ""
+    },
+    "prompt": "a chalkboard with the text 'MENU'",
     "prompt_id": 114,
-    "category": "attribute_binding",
-    "prompt": "a striped green shirt on a person holding a yellow umbrella",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "text",
+        "text": "the text 'MENU' is rendered legibly and spelled correctly",
+        "id": 0
+      }
+    ],
+    "seed": 1348
   },
   {
+    "category": "text_rendering",
+    "checklist": {
+      "objects": [],
+      "relations": [],
+      "text": [
+        "COFFEE"
+      ],
+      "style": ""
+    },
+    "prompt": "a neon sign with the text 'COFFEE'",
     "prompt_id": 115,
-    "category": "attribute_binding",
-    "prompt": "a silver teapot with a black handle and a white flower decoration",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "text",
+        "text": "the text 'COFFEE' is rendered legibly and spelled correctly",
+        "id": 0
+      }
+    ],
+    "seed": 1349
   },
   {
+    "category": "text_rendering",
+    "checklist": {
+      "objects": [],
+      "relations": [],
+      "text": [
+        "EXIT"
+      ],
+      "style": ""
+    },
+    "prompt": "a book cover with the text 'EXIT'",
     "prompt_id": 116,
-    "category": "attribute_binding",
-    "prompt": "a pink sofa with a brown wooden frame in a cozy room attribute_binding benchmark sample 16",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "text",
+        "text": "the text 'EXIT' is rendered legibly and spelled correctly",
+        "id": 0
+      }
+    ],
+    "seed": 1350
   },
   {
+    "category": "text_rendering",
+    "checklist": {
+      "objects": [],
+      "relations": [],
+      "text": [
+        "JAZZ"
+      ],
+      "style": ""
+    },
+    "prompt": "a neon sign with the text 'JAZZ'",
     "prompt_id": 117,
-    "category": "attribute_binding",
-    "prompt": "a red bicycle with a blue basket beside a white wall",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "text",
+        "text": "the text 'JAZZ' is rendered legibly and spelled correctly",
+        "id": 0
+      }
+    ],
+    "seed": 1351
   },
   {
+    "category": "text_rendering",
+    "checklist": {
+      "objects": [],
+      "relations": [],
+      "text": [
+        "HOME"
+      ],
+      "style": ""
+    },
+    "prompt": "a coffee cup with the text 'HOME'",
     "prompt_id": 118,
-    "category": "attribute_binding",
-    "prompt": "a striped green shirt on a person holding a yellow umbrella",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "text",
+        "text": "the text 'HOME' is rendered legibly and spelled correctly",
+        "id": 0
+      }
+    ],
+    "seed": 1352
   },
   {
+    "category": "text_rendering",
+    "checklist": {
+      "objects": [],
+      "relations": [],
+      "text": [
+        "PEACE"
+      ],
+      "style": ""
+    },
+    "prompt": "a book cover with the text 'PEACE'",
     "prompt_id": 119,
-    "category": "attribute_binding",
-    "prompt": "a silver teapot with a black handle and a white flower decoration attribute_binding benchmark sample 19",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "text",
+        "text": "the text 'PEACE' is rendered legibly and spelled correctly",
+        "id": 0
+      }
+    ],
+    "seed": 1353
   },
   {
+    "category": "text_rendering",
+    "checklist": {
+      "objects": [],
+      "relations": [],
+      "text": [
+        "KEEP GOING"
+      ],
+      "style": ""
+    },
+    "prompt": "a neon sign with the text 'KEEP GOING'",
     "prompt_id": 120,
-    "category": "attribute_binding",
-    "prompt": "a pink sofa with a brown wooden frame in a cozy room",
-    "model_name": "",
-    "seed": 0,
-    "image_path": "",
-    "notes": "seeded benchmark prompt"
+    "elements": [
+      {
+        "kind": "text",
+        "text": "the text 'KEEP GOING' is rendered legibly and spelled correctly",
+        "id": 0
+      }
+    ],
+    "seed": 1354
+  },
+  {
+    "category": "compound",
+    "checklist": {
+      "objects": [
+        {
+          "name": "lamp",
+          "count": 4,
+          "color": "green"
+        },
+        {
+          "name": "balloon",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "lamp",
+          "relation": "on top of",
+          "object": "balloon"
+        }
+      ],
+      "text": [],
+      "style": "watercolor painting"
+    },
+    "prompt": "4 green lamps on top of a balloon, watercolor painting",
+    "prompt_id": 121,
+    "elements": [
+      {
+        "kind": "count",
+        "count": 4,
+        "text": "exactly 4 lamp(s) are visible",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the lamps are green",
+        "id": 1
+      },
+      {
+        "kind": "object",
+        "text": "a balloon is present",
+        "id": 2
+      },
+      {
+        "kind": "relation",
+        "text": "the lamp is on top of the balloon",
+        "id": 3
+      },
+      {
+        "kind": "style",
+        "text": "the image is in watercolor painting",
+        "id": 4
+      }
+    ],
+    "seed": 1355
+  },
+  {
+    "category": "compound",
+    "checklist": {
+      "objects": [
+        {
+          "name": "book",
+          "count": 3,
+          "color": "purple"
+        },
+        {
+          "name": "dog",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "book",
+          "relation": "on top of",
+          "object": "dog"
+        }
+      ],
+      "text": [],
+      "style": "isometric 3D render"
+    },
+    "prompt": "3 purple books on top of a dog, isometric 3D render",
+    "prompt_id": 122,
+    "elements": [
+      {
+        "kind": "count",
+        "count": 3,
+        "text": "exactly 3 book(s) are visible",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the books are purple",
+        "id": 1
+      },
+      {
+        "kind": "object",
+        "text": "a dog is present",
+        "id": 2
+      },
+      {
+        "kind": "relation",
+        "text": "the book is on top of the dog",
+        "id": 3
+      },
+      {
+        "kind": "style",
+        "text": "the image is in isometric 3D render",
+        "id": 4
+      }
+    ],
+    "seed": 1356
+  },
+  {
+    "category": "compound",
+    "checklist": {
+      "objects": [
+        {
+          "name": "bird",
+          "count": 4,
+          "color": "black"
+        },
+        {
+          "name": "lamp",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "bird",
+          "relation": "on top of",
+          "object": "lamp"
+        }
+      ],
+      "text": [],
+      "style": "isometric 3D render"
+    },
+    "prompt": "4 black birds on top of a lamp, isometric 3D render",
+    "prompt_id": 123,
+    "elements": [
+      {
+        "kind": "count",
+        "count": 4,
+        "text": "exactly 4 bird(s) are visible",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the birds are black",
+        "id": 1
+      },
+      {
+        "kind": "object",
+        "text": "a lamp is present",
+        "id": 2
+      },
+      {
+        "kind": "relation",
+        "text": "the bird is on top of the lamp",
+        "id": 3
+      },
+      {
+        "kind": "style",
+        "text": "the image is in isometric 3D render",
+        "id": 4
+      }
+    ],
+    "seed": 1357
+  },
+  {
+    "category": "compound",
+    "checklist": {
+      "objects": [
+        {
+          "name": "balloon",
+          "count": 2,
+          "color": "blue"
+        },
+        {
+          "name": "flower",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "balloon",
+          "relation": "to the right of",
+          "object": "flower"
+        }
+      ],
+      "text": [],
+      "style": "watercolor painting"
+    },
+    "prompt": "2 blue balloons to the right of a flower, watercolor painting",
+    "prompt_id": 124,
+    "elements": [
+      {
+        "kind": "count",
+        "count": 2,
+        "text": "exactly 2 balloon(s) are visible",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the balloons are blue",
+        "id": 1
+      },
+      {
+        "kind": "object",
+        "text": "a flower is present",
+        "id": 2
+      },
+      {
+        "kind": "relation",
+        "text": "the balloon is to the right of the flower",
+        "id": 3
+      },
+      {
+        "kind": "style",
+        "text": "the image is in watercolor painting",
+        "id": 4
+      }
+    ],
+    "seed": 1358
+  },
+  {
+    "category": "compound",
+    "checklist": {
+      "objects": [
+        {
+          "name": "dog",
+          "count": 3,
+          "color": "purple"
+        },
+        {
+          "name": "chair",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "dog",
+          "relation": "to the right of",
+          "object": "chair"
+        }
+      ],
+      "text": [
+        "FRESH"
+      ],
+      "style": "photorealistic"
+    },
+    "prompt": "3 purple dogs to the right of a chair, photorealistic, with the word 'FRESH'",
+    "prompt_id": 125,
+    "elements": [
+      {
+        "kind": "count",
+        "count": 3,
+        "text": "exactly 3 dog(s) are visible",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the dogs are purple",
+        "id": 1
+      },
+      {
+        "kind": "object",
+        "text": "a chair is present",
+        "id": 2
+      },
+      {
+        "kind": "relation",
+        "text": "the dog is to the right of the chair",
+        "id": 3
+      },
+      {
+        "kind": "text",
+        "text": "the text 'FRESH' is rendered legibly and spelled correctly",
+        "id": 4
+      },
+      {
+        "kind": "style",
+        "text": "the image is in photorealistic",
+        "id": 5
+      }
+    ],
+    "seed": 1359
+  },
+  {
+    "category": "compound",
+    "checklist": {
+      "objects": [
+        {
+          "name": "balloon",
+          "count": 2,
+          "color": "purple"
+        },
+        {
+          "name": "cat",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "balloon",
+          "relation": "behind",
+          "object": "cat"
+        }
+      ],
+      "text": [
+        "MENU"
+      ],
+      "style": "photorealistic"
+    },
+    "prompt": "2 purple balloons behind a cat, photorealistic, with the word 'MENU'",
+    "prompt_id": 126,
+    "elements": [
+      {
+        "kind": "count",
+        "count": 2,
+        "text": "exactly 2 balloon(s) are visible",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the balloons are purple",
+        "id": 1
+      },
+      {
+        "kind": "object",
+        "text": "a cat is present",
+        "id": 2
+      },
+      {
+        "kind": "relation",
+        "text": "the balloon is behind the cat",
+        "id": 3
+      },
+      {
+        "kind": "text",
+        "text": "the text 'MENU' is rendered legibly and spelled correctly",
+        "id": 4
+      },
+      {
+        "kind": "style",
+        "text": "the image is in photorealistic",
+        "id": 5
+      }
+    ],
+    "seed": 1360
+  },
+  {
+    "category": "compound",
+    "checklist": {
+      "objects": [
+        {
+          "name": "chair",
+          "count": 3,
+          "color": "red"
+        },
+        {
+          "name": "bottle",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "chair",
+          "relation": "on top of",
+          "object": "bottle"
+        }
+      ],
+      "text": [],
+      "style": "anime style"
+    },
+    "prompt": "3 red chairs on top of a bottle, anime style",
+    "prompt_id": 127,
+    "elements": [
+      {
+        "kind": "count",
+        "count": 3,
+        "text": "exactly 3 chair(s) are visible",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the chairs are red",
+        "id": 1
+      },
+      {
+        "kind": "object",
+        "text": "a bottle is present",
+        "id": 2
+      },
+      {
+        "kind": "relation",
+        "text": "the chair is on top of the bottle",
+        "id": 3
+      },
+      {
+        "kind": "style",
+        "text": "the image is in anime style",
+        "id": 4
+      }
+    ],
+    "seed": 1361
+  },
+  {
+    "category": "compound",
+    "checklist": {
+      "objects": [
+        {
+          "name": "bicycle",
+          "count": 4,
+          "color": "yellow"
+        },
+        {
+          "name": "dog",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "bicycle",
+          "relation": "to the right of",
+          "object": "dog"
+        }
+      ],
+      "text": [],
+      "style": "watercolor painting"
+    },
+    "prompt": "4 yellow bicycles to the right of a dog, watercolor painting",
+    "prompt_id": 128,
+    "elements": [
+      {
+        "kind": "count",
+        "count": 4,
+        "text": "exactly 4 bicycle(s) are visible",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the bicycles are yellow",
+        "id": 1
+      },
+      {
+        "kind": "object",
+        "text": "a dog is present",
+        "id": 2
+      },
+      {
+        "kind": "relation",
+        "text": "the bicycle is to the right of the dog",
+        "id": 3
+      },
+      {
+        "kind": "style",
+        "text": "the image is in watercolor painting",
+        "id": 4
+      }
+    ],
+    "seed": 1362
+  },
+  {
+    "category": "compound",
+    "checklist": {
+      "objects": [
+        {
+          "name": "flower",
+          "count": 4,
+          "color": "pink"
+        },
+        {
+          "name": "vase",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "flower",
+          "relation": "on top of",
+          "object": "vase"
+        }
+      ],
+      "text": [
+        "JAZZ"
+      ],
+      "style": "isometric 3D render"
+    },
+    "prompt": "4 pink flowers on top of a vase, isometric 3D render, with the word 'JAZZ'",
+    "prompt_id": 129,
+    "elements": [
+      {
+        "kind": "count",
+        "count": 4,
+        "text": "exactly 4 flower(s) are visible",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the flowers are pink",
+        "id": 1
+      },
+      {
+        "kind": "object",
+        "text": "a vase is present",
+        "id": 2
+      },
+      {
+        "kind": "relation",
+        "text": "the flower is on top of the vase",
+        "id": 3
+      },
+      {
+        "kind": "text",
+        "text": "the text 'JAZZ' is rendered legibly and spelled correctly",
+        "id": 4
+      },
+      {
+        "kind": "style",
+        "text": "the image is in isometric 3D render",
+        "id": 5
+      }
+    ],
+    "seed": 1363
+  },
+  {
+    "category": "compound",
+    "checklist": {
+      "objects": [
+        {
+          "name": "dog",
+          "count": 3,
+          "color": "green"
+        },
+        {
+          "name": "candle",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "dog",
+          "relation": "to the right of",
+          "object": "candle"
+        }
+      ],
+      "text": [
+        "HELLO"
+      ],
+      "style": "isometric 3D render"
+    },
+    "prompt": "3 green dogs to the right of a candle, isometric 3D render, with the word 'HELLO'",
+    "prompt_id": 130,
+    "elements": [
+      {
+        "kind": "count",
+        "count": 3,
+        "text": "exactly 3 dog(s) are visible",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the dogs are green",
+        "id": 1
+      },
+      {
+        "kind": "object",
+        "text": "a candle is present",
+        "id": 2
+      },
+      {
+        "kind": "relation",
+        "text": "the dog is to the right of the candle",
+        "id": 3
+      },
+      {
+        "kind": "text",
+        "text": "the text 'HELLO' is rendered legibly and spelled correctly",
+        "id": 4
+      },
+      {
+        "kind": "style",
+        "text": "the image is in isometric 3D render",
+        "id": 5
+      }
+    ],
+    "seed": 1364
+  },
+  {
+    "category": "compound",
+    "checklist": {
+      "objects": [
+        {
+          "name": "hat",
+          "count": 3,
+          "color": "black"
+        },
+        {
+          "name": "bird",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "hat",
+          "relation": "to the left of",
+          "object": "bird"
+        }
+      ],
+      "text": [
+        "WELCOME"
+      ],
+      "style": "anime style"
+    },
+    "prompt": "3 black hats to the left of a bird, anime style, with the word 'WELCOME'",
+    "prompt_id": 131,
+    "elements": [
+      {
+        "kind": "count",
+        "count": 3,
+        "text": "exactly 3 hat(s) are visible",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the hats are black",
+        "id": 1
+      },
+      {
+        "kind": "object",
+        "text": "a bird is present",
+        "id": 2
+      },
+      {
+        "kind": "relation",
+        "text": "the hat is to the left of the bird",
+        "id": 3
+      },
+      {
+        "kind": "text",
+        "text": "the text 'WELCOME' is rendered legibly and spelled correctly",
+        "id": 4
+      },
+      {
+        "kind": "style",
+        "text": "the image is in anime style",
+        "id": 5
+      }
+    ],
+    "seed": 1365
+  },
+  {
+    "category": "compound",
+    "checklist": {
+      "objects": [
+        {
+          "name": "book",
+          "count": 2,
+          "color": "white"
+        },
+        {
+          "name": "kite",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "book",
+          "relation": "behind",
+          "object": "kite"
+        }
+      ],
+      "text": [],
+      "style": "isometric 3D render"
+    },
+    "prompt": "2 white books behind a kite, isometric 3D render",
+    "prompt_id": 132,
+    "elements": [
+      {
+        "kind": "count",
+        "count": 2,
+        "text": "exactly 2 book(s) are visible",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the books are white",
+        "id": 1
+      },
+      {
+        "kind": "object",
+        "text": "a kite is present",
+        "id": 2
+      },
+      {
+        "kind": "relation",
+        "text": "the book is behind the kite",
+        "id": 3
+      },
+      {
+        "kind": "style",
+        "text": "the image is in isometric 3D render",
+        "id": 4
+      }
+    ],
+    "seed": 1366
+  },
+  {
+    "category": "compound",
+    "checklist": {
+      "objects": [
+        {
+          "name": "candle",
+          "count": 4,
+          "color": "pink"
+        },
+        {
+          "name": "bicycle",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "candle",
+          "relation": "behind",
+          "object": "bicycle"
+        }
+      ],
+      "text": [],
+      "style": "pencil sketch"
+    },
+    "prompt": "4 pink candles behind a bicycle, pencil sketch",
+    "prompt_id": 133,
+    "elements": [
+      {
+        "kind": "count",
+        "count": 4,
+        "text": "exactly 4 candle(s) are visible",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the candles are pink",
+        "id": 1
+      },
+      {
+        "kind": "object",
+        "text": "a bicycle is present",
+        "id": 2
+      },
+      {
+        "kind": "relation",
+        "text": "the candle is behind the bicycle",
+        "id": 3
+      },
+      {
+        "kind": "style",
+        "text": "the image is in pencil sketch",
+        "id": 4
+      }
+    ],
+    "seed": 1367
+  },
+  {
+    "category": "compound",
+    "checklist": {
+      "objects": [
+        {
+          "name": "bicycle",
+          "count": 4,
+          "color": "green"
+        },
+        {
+          "name": "apple",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "bicycle",
+          "relation": "to the right of",
+          "object": "apple"
+        }
+      ],
+      "text": [
+        "AI LAB"
+      ],
+      "style": "watercolor painting"
+    },
+    "prompt": "4 green bicycles to the right of an apple, watercolor painting, with the word 'AI LAB'",
+    "prompt_id": 134,
+    "elements": [
+      {
+        "kind": "count",
+        "count": 4,
+        "text": "exactly 4 bicycle(s) are visible",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the bicycles are green",
+        "id": 1
+      },
+      {
+        "kind": "object",
+        "text": "a apple is present",
+        "id": 2
+      },
+      {
+        "kind": "relation",
+        "text": "the bicycle is to the right of the apple",
+        "id": 3
+      },
+      {
+        "kind": "text",
+        "text": "the text 'AI LAB' is rendered legibly and spelled correctly",
+        "id": 4
+      },
+      {
+        "kind": "style",
+        "text": "the image is in watercolor painting",
+        "id": 5
+      }
+    ],
+    "seed": 1368
+  },
+  {
+    "category": "compound",
+    "checklist": {
+      "objects": [
+        {
+          "name": "kite",
+          "count": 3,
+          "color": "blue"
+        },
+        {
+          "name": "cup",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "kite",
+          "relation": "behind",
+          "object": "cup"
+        }
+      ],
+      "text": [],
+      "style": "anime style"
+    },
+    "prompt": "3 blue kites behind a cup, anime style",
+    "prompt_id": 135,
+    "elements": [
+      {
+        "kind": "count",
+        "count": 3,
+        "text": "exactly 3 kite(s) are visible",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the kites are blue",
+        "id": 1
+      },
+      {
+        "kind": "object",
+        "text": "a cup is present",
+        "id": 2
+      },
+      {
+        "kind": "relation",
+        "text": "the kite is behind the cup",
+        "id": 3
+      },
+      {
+        "kind": "style",
+        "text": "the image is in anime style",
+        "id": 4
+      }
+    ],
+    "seed": 1369
+  },
+  {
+    "category": "compound",
+    "checklist": {
+      "objects": [
+        {
+          "name": "cup",
+          "count": 3,
+          "color": "black"
+        },
+        {
+          "name": "lantern",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "cup",
+          "relation": "on top of",
+          "object": "lantern"
+        }
+      ],
+      "text": [
+        "STOP"
+      ],
+      "style": "photorealistic"
+    },
+    "prompt": "3 black cups on top of a lantern, photorealistic, with the word 'STOP'",
+    "prompt_id": 136,
+    "elements": [
+      {
+        "kind": "count",
+        "count": 3,
+        "text": "exactly 3 cup(s) are visible",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the cups are black",
+        "id": 1
+      },
+      {
+        "kind": "object",
+        "text": "a lantern is present",
+        "id": 2
+      },
+      {
+        "kind": "relation",
+        "text": "the cup is on top of the lantern",
+        "id": 3
+      },
+      {
+        "kind": "text",
+        "text": "the text 'STOP' is rendered legibly and spelled correctly",
+        "id": 4
+      },
+      {
+        "kind": "style",
+        "text": "the image is in photorealistic",
+        "id": 5
+      }
+    ],
+    "seed": 1370
+  },
+  {
+    "category": "compound",
+    "checklist": {
+      "objects": [
+        {
+          "name": "candle",
+          "count": 2,
+          "color": "blue"
+        },
+        {
+          "name": "flower",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "candle",
+          "relation": "on top of",
+          "object": "flower"
+        }
+      ],
+      "text": [],
+      "style": "watercolor painting"
+    },
+    "prompt": "2 blue candles on top of a flower, watercolor painting",
+    "prompt_id": 137,
+    "elements": [
+      {
+        "kind": "count",
+        "count": 2,
+        "text": "exactly 2 candle(s) are visible",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the candles are blue",
+        "id": 1
+      },
+      {
+        "kind": "object",
+        "text": "a flower is present",
+        "id": 2
+      },
+      {
+        "kind": "relation",
+        "text": "the candle is on top of the flower",
+        "id": 3
+      },
+      {
+        "kind": "style",
+        "text": "the image is in watercolor painting",
+        "id": 4
+      }
+    ],
+    "seed": 1371
+  },
+  {
+    "category": "compound",
+    "checklist": {
+      "objects": [
+        {
+          "name": "lantern",
+          "count": 3,
+          "color": "yellow"
+        },
+        {
+          "name": "cup",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "lantern",
+          "relation": "to the right of",
+          "object": "cup"
+        }
+      ],
+      "text": [],
+      "style": "anime style"
+    },
+    "prompt": "3 yellow lanterns to the right of a cup, anime style",
+    "prompt_id": 138,
+    "elements": [
+      {
+        "kind": "count",
+        "count": 3,
+        "text": "exactly 3 lantern(s) are visible",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the lanterns are yellow",
+        "id": 1
+      },
+      {
+        "kind": "object",
+        "text": "a cup is present",
+        "id": 2
+      },
+      {
+        "kind": "relation",
+        "text": "the lantern is to the right of the cup",
+        "id": 3
+      },
+      {
+        "kind": "style",
+        "text": "the image is in anime style",
+        "id": 4
+      }
+    ],
+    "seed": 1372
+  },
+  {
+    "category": "compound",
+    "checklist": {
+      "objects": [
+        {
+          "name": "bird",
+          "count": 4,
+          "color": "white"
+        },
+        {
+          "name": "dog",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "bird",
+          "relation": "to the left of",
+          "object": "dog"
+        }
+      ],
+      "text": [],
+      "style": "anime style"
+    },
+    "prompt": "4 white birds to the left of a dog, anime style",
+    "prompt_id": 139,
+    "elements": [
+      {
+        "kind": "count",
+        "count": 4,
+        "text": "exactly 4 bird(s) are visible",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the birds are white",
+        "id": 1
+      },
+      {
+        "kind": "object",
+        "text": "a dog is present",
+        "id": 2
+      },
+      {
+        "kind": "relation",
+        "text": "the bird is to the left of the dog",
+        "id": 3
+      },
+      {
+        "kind": "style",
+        "text": "the image is in anime style",
+        "id": 4
+      }
+    ],
+    "seed": 1373
+  },
+  {
+    "category": "compound",
+    "checklist": {
+      "objects": [
+        {
+          "name": "bird",
+          "count": 4,
+          "color": "red"
+        },
+        {
+          "name": "candle",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "bird",
+          "relation": "to the left of",
+          "object": "candle"
+        }
+      ],
+      "text": [],
+      "style": "photorealistic"
+    },
+    "prompt": "4 red birds to the left of a candle, photorealistic",
+    "prompt_id": 140,
+    "elements": [
+      {
+        "kind": "count",
+        "count": 4,
+        "text": "exactly 4 bird(s) are visible",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the birds are red",
+        "id": 1
+      },
+      {
+        "kind": "object",
+        "text": "a candle is present",
+        "id": 2
+      },
+      {
+        "kind": "relation",
+        "text": "the bird is to the left of the candle",
+        "id": 3
+      },
+      {
+        "kind": "style",
+        "text": "the image is in photorealistic",
+        "id": 4
+      }
+    ],
+    "seed": 1374
+  },
+  {
+    "category": "compound",
+    "checklist": {
+      "objects": [
+        {
+          "name": "candle",
+          "count": 3,
+          "color": "white"
+        },
+        {
+          "name": "apple",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "candle",
+          "relation": "behind",
+          "object": "apple"
+        }
+      ],
+      "text": [
+        "HELLO"
+      ],
+      "style": "isometric 3D render"
+    },
+    "prompt": "3 white candles behind an apple, isometric 3D render, with the word 'HELLO'",
+    "prompt_id": 141,
+    "elements": [
+      {
+        "kind": "count",
+        "count": 3,
+        "text": "exactly 3 candle(s) are visible",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the candles are white",
+        "id": 1
+      },
+      {
+        "kind": "object",
+        "text": "a apple is present",
+        "id": 2
+      },
+      {
+        "kind": "relation",
+        "text": "the candle is behind the apple",
+        "id": 3
+      },
+      {
+        "kind": "text",
+        "text": "the text 'HELLO' is rendered legibly and spelled correctly",
+        "id": 4
+      },
+      {
+        "kind": "style",
+        "text": "the image is in isometric 3D render",
+        "id": 5
+      }
+    ],
+    "seed": 1375
+  },
+  {
+    "category": "compound",
+    "checklist": {
+      "objects": [
+        {
+          "name": "lamp",
+          "count": 3,
+          "color": "red"
+        },
+        {
+          "name": "bicycle",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "lamp",
+          "relation": "to the left of",
+          "object": "bicycle"
+        }
+      ],
+      "text": [],
+      "style": "photorealistic"
+    },
+    "prompt": "3 red lamps to the left of a bicycle, photorealistic",
+    "prompt_id": 142,
+    "elements": [
+      {
+        "kind": "count",
+        "count": 3,
+        "text": "exactly 3 lamp(s) are visible",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the lamps are red",
+        "id": 1
+      },
+      {
+        "kind": "object",
+        "text": "a bicycle is present",
+        "id": 2
+      },
+      {
+        "kind": "relation",
+        "text": "the lamp is to the left of the bicycle",
+        "id": 3
+      },
+      {
+        "kind": "style",
+        "text": "the image is in photorealistic",
+        "id": 4
+      }
+    ],
+    "seed": 1376
+  },
+  {
+    "category": "compound",
+    "checklist": {
+      "objects": [
+        {
+          "name": "balloon",
+          "count": 4,
+          "color": "yellow"
+        },
+        {
+          "name": "flower",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "balloon",
+          "relation": "behind",
+          "object": "flower"
+        }
+      ],
+      "text": [
+        "MENU"
+      ],
+      "style": "isometric 3D render"
+    },
+    "prompt": "4 yellow balloons behind a flower, isometric 3D render, with the word 'MENU'",
+    "prompt_id": 143,
+    "elements": [
+      {
+        "kind": "count",
+        "count": 4,
+        "text": "exactly 4 balloon(s) are visible",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the balloons are yellow",
+        "id": 1
+      },
+      {
+        "kind": "object",
+        "text": "a flower is present",
+        "id": 2
+      },
+      {
+        "kind": "relation",
+        "text": "the balloon is behind the flower",
+        "id": 3
+      },
+      {
+        "kind": "text",
+        "text": "the text 'MENU' is rendered legibly and spelled correctly",
+        "id": 4
+      },
+      {
+        "kind": "style",
+        "text": "the image is in isometric 3D render",
+        "id": 5
+      }
+    ],
+    "seed": 1377
+  },
+  {
+    "category": "compound",
+    "checklist": {
+      "objects": [
+        {
+          "name": "bottle",
+          "count": 3,
+          "color": "green"
+        },
+        {
+          "name": "balloon",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "bottle",
+          "relation": "to the right of",
+          "object": "balloon"
+        }
+      ],
+      "text": [
+        "HOME"
+      ],
+      "style": "anime style"
+    },
+    "prompt": "3 green bottles to the right of a balloon, anime style, with the word 'HOME'",
+    "prompt_id": 144,
+    "elements": [
+      {
+        "kind": "count",
+        "count": 3,
+        "text": "exactly 3 bottle(s) are visible",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the bottles are green",
+        "id": 1
+      },
+      {
+        "kind": "object",
+        "text": "a balloon is present",
+        "id": 2
+      },
+      {
+        "kind": "relation",
+        "text": "the bottle is to the right of the balloon",
+        "id": 3
+      },
+      {
+        "kind": "text",
+        "text": "the text 'HOME' is rendered legibly and spelled correctly",
+        "id": 4
+      },
+      {
+        "kind": "style",
+        "text": "the image is in anime style",
+        "id": 5
+      }
+    ],
+    "seed": 1378
+  },
+  {
+    "category": "compound",
+    "checklist": {
+      "objects": [
+        {
+          "name": "chair",
+          "count": 2,
+          "color": "white"
+        },
+        {
+          "name": "candle",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "chair",
+          "relation": "to the left of",
+          "object": "candle"
+        }
+      ],
+      "text": [
+        "SALE"
+      ],
+      "style": "watercolor painting"
+    },
+    "prompt": "2 white chairs to the left of a candle, watercolor painting, with the word 'SALE'",
+    "prompt_id": 145,
+    "elements": [
+      {
+        "kind": "count",
+        "count": 2,
+        "text": "exactly 2 chair(s) are visible",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the chairs are white",
+        "id": 1
+      },
+      {
+        "kind": "object",
+        "text": "a candle is present",
+        "id": 2
+      },
+      {
+        "kind": "relation",
+        "text": "the chair is to the left of the candle",
+        "id": 3
+      },
+      {
+        "kind": "text",
+        "text": "the text 'SALE' is rendered legibly and spelled correctly",
+        "id": 4
+      },
+      {
+        "kind": "style",
+        "text": "the image is in watercolor painting",
+        "id": 5
+      }
+    ],
+    "seed": 1379
+  },
+  {
+    "category": "compound",
+    "checklist": {
+      "objects": [
+        {
+          "name": "hat",
+          "count": 3,
+          "color": "red"
+        },
+        {
+          "name": "cat",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "hat",
+          "relation": "to the left of",
+          "object": "cat"
+        }
+      ],
+      "text": [],
+      "style": "isometric 3D render"
+    },
+    "prompt": "3 red hats to the left of a cat, isometric 3D render",
+    "prompt_id": 146,
+    "elements": [
+      {
+        "kind": "count",
+        "count": 3,
+        "text": "exactly 3 hat(s) are visible",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the hats are red",
+        "id": 1
+      },
+      {
+        "kind": "object",
+        "text": "a cat is present",
+        "id": 2
+      },
+      {
+        "kind": "relation",
+        "text": "the hat is to the left of the cat",
+        "id": 3
+      },
+      {
+        "kind": "style",
+        "text": "the image is in isometric 3D render",
+        "id": 4
+      }
+    ],
+    "seed": 1380
+  },
+  {
+    "category": "compound",
+    "checklist": {
+      "objects": [
+        {
+          "name": "apple",
+          "count": 2,
+          "color": "yellow"
+        },
+        {
+          "name": "bicycle",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "apple",
+          "relation": "behind",
+          "object": "bicycle"
+        }
+      ],
+      "text": [
+        "NEW"
+      ],
+      "style": "anime style"
+    },
+    "prompt": "2 yellow apples behind a bicycle, anime style, with the word 'NEW'",
+    "prompt_id": 147,
+    "elements": [
+      {
+        "kind": "count",
+        "count": 2,
+        "text": "exactly 2 apple(s) are visible",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the apples are yellow",
+        "id": 1
+      },
+      {
+        "kind": "object",
+        "text": "a bicycle is present",
+        "id": 2
+      },
+      {
+        "kind": "relation",
+        "text": "the apple is behind the bicycle",
+        "id": 3
+      },
+      {
+        "kind": "text",
+        "text": "the text 'NEW' is rendered legibly and spelled correctly",
+        "id": 4
+      },
+      {
+        "kind": "style",
+        "text": "the image is in anime style",
+        "id": 5
+      }
+    ],
+    "seed": 1381
+  },
+  {
+    "category": "compound",
+    "checklist": {
+      "objects": [
+        {
+          "name": "candle",
+          "count": 3,
+          "color": "green"
+        },
+        {
+          "name": "flower",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "candle",
+          "relation": "on top of",
+          "object": "flower"
+        }
+      ],
+      "text": [
+        "NEW"
+      ],
+      "style": "watercolor painting"
+    },
+    "prompt": "3 green candles on top of a flower, watercolor painting, with the word 'NEW'",
+    "prompt_id": 148,
+    "elements": [
+      {
+        "kind": "count",
+        "count": 3,
+        "text": "exactly 3 candle(s) are visible",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the candles are green",
+        "id": 1
+      },
+      {
+        "kind": "object",
+        "text": "a flower is present",
+        "id": 2
+      },
+      {
+        "kind": "relation",
+        "text": "the candle is on top of the flower",
+        "id": 3
+      },
+      {
+        "kind": "text",
+        "text": "the text 'NEW' is rendered legibly and spelled correctly",
+        "id": 4
+      },
+      {
+        "kind": "style",
+        "text": "the image is in watercolor painting",
+        "id": 5
+      }
+    ],
+    "seed": 1382
+  },
+  {
+    "category": "compound",
+    "checklist": {
+      "objects": [
+        {
+          "name": "kite",
+          "count": 3,
+          "color": "pink"
+        },
+        {
+          "name": "apple",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "kite",
+          "relation": "to the right of",
+          "object": "apple"
+        }
+      ],
+      "text": [],
+      "style": "watercolor painting"
+    },
+    "prompt": "3 pink kites to the right of an apple, watercolor painting",
+    "prompt_id": 149,
+    "elements": [
+      {
+        "kind": "count",
+        "count": 3,
+        "text": "exactly 3 kite(s) are visible",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the kites are pink",
+        "id": 1
+      },
+      {
+        "kind": "object",
+        "text": "a apple is present",
+        "id": 2
+      },
+      {
+        "kind": "relation",
+        "text": "the kite is to the right of the apple",
+        "id": 3
+      },
+      {
+        "kind": "style",
+        "text": "the image is in watercolor painting",
+        "id": 4
+      }
+    ],
+    "seed": 1383
+  },
+  {
+    "category": "compound",
+    "checklist": {
+      "objects": [
+        {
+          "name": "bicycle",
+          "count": 2,
+          "color": "white"
+        },
+        {
+          "name": "lamp",
+          "count": 1,
+          "color": null
+        }
+      ],
+      "relations": [
+        {
+          "subject": "bicycle",
+          "relation": "to the right of",
+          "object": "lamp"
+        }
+      ],
+      "text": [],
+      "style": "isometric 3D render"
+    },
+    "prompt": "2 white bicycles to the right of a lamp, isometric 3D render",
+    "prompt_id": 150,
+    "elements": [
+      {
+        "kind": "count",
+        "count": 2,
+        "text": "exactly 2 bicycle(s) are visible",
+        "id": 0
+      },
+      {
+        "kind": "color",
+        "text": "the bicycles are white",
+        "id": 1
+      },
+      {
+        "kind": "object",
+        "text": "a lamp is present",
+        "id": 2
+      },
+      {
+        "kind": "relation",
+        "text": "the bicycle is to the right of the lamp",
+        "id": 3
+      },
+      {
+        "kind": "style",
+        "text": "the image is in isometric 3D render",
+        "id": 4
+      }
+    ],
+    "seed": 1384
   }
 ]

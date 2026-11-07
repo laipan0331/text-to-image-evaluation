@@ -1,10 +1,5 @@
-"""Text-to-image evaluation package."""
+"""PromptCraft offline T2I benchmark (builds the model-capability profile and evaluation protocol)."""
 
-__all__ = [
-    "build_prompt_bank",
-    "load_model_pipeline",
-    "compute_clip_score",
-    "compute_aesthetic_score",
-    "judge_with_vlm",
-    "build_human_rubric",
-]
+from .dataset import CATEGORIES, build_prompt_bank, flatten_checklist
+
+__all__ = ["CATEGORIES", "build_prompt_bank", "flatten_checklist"]

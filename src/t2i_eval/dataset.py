@@ -1,99 +1,147 @@
+"""Benchmark prompt bank with element checklists (paper Sec. 4, contribution 1).
+
+Five categories, as in the paper: counting, spatial, color_binding,
+text_rendering, compound. Every prompt carries a structured checklist
+({objects, relations, text, style}) that the judge verifies element by element.
+"""
 from __future__ import annotations
 
 import json
-from dataclasses import asdict, dataclass
+import random
 from pathlib import Path
 from typing import Any, Iterable
 
+CATEGORIES = ["counting", "spatial", "color_binding", "text_rendering", "compound"]
 
-@dataclass
-class PromptEntry:
-    prompt_id: int
-    category: str
-    prompt: str
-    model_name: str = ""
-    seed: int = 0
-    image_path: str = ""
-    notes: str = ""
-
-    def to_dict(self) -> dict[str, Any]:
-        return asdict(self)
-
-
-CATEGORY_TEMPLATES = {
-    "object_count": [
-        "three red apples on a wooden table",
-        "five books stacked neatly beside a lamp",
-        "two cats sitting on a windowsill, photorealistic",
-        "seven balloons floating above a city street at sunset",
-    ],
-    "spatial_relation": [
-        "a dog to the left of a bicycle in a park",
-        "a cup on top of a notebook next to a laptop",
-        "a small plant in front of a blue chair inside a studio",
-        "a teddy bear behind a vase on a dining table",
-    ],
-    "color_attribute": [
-        "a yellow lemon next to a green cucumber on a white counter",
-        "a purple umbrella with a red handle under a cloudy sky",
-        "a blue ceramic mug with gold trim on a wooden desk",
-        "a black-and-white striped cat staring at a camera",
-    ],
-    "text_rendering": [
-        "a street sign that says 'WELCOME HOME' in bold modern type",
-        "a coffee cup with the text 'KEEP GOING' printed on it",
-        "a book cover reading 'MIRROR CITY' with neon letters",
-        "a chalkboard with the phrase 'AI LAB' written in neat handwriting",
-    ],
-    "style_composition": [
-        "cinematic portrait of a chef in a warm kitchen, shallow depth of field",
-        "watercolor painting of a mountain lake at sunrise, soft brush strokes",
-        "isometric 3D office workspace with large glass windows, minimalistic design",
-        "anime-style city alley at night with neon reflections and rainy pavement",
-    ],
-    "attribute_binding": [
-        "a red bicycle with a blue basket beside a white wall",
-        "a striped green shirt on a person holding a yellow umbrella",
-        "a silver teapot with a black handle and a white flower decoration",
-        "a pink sofa with a brown wooden frame in a cozy room",
-    ],
-}
+OBJECTS = ["apple", "cat", "book", "balloon", "cup", "chair", "bird", "candle",
+           "lantern", "bicycle", "dog", "hat", "bottle", "vase", "flower", "lamp", "kite"]
+COLORS = ["red", "blue", "green", "yellow", "purple", "pink", "white", "black"]
+CONTEXTS = ["on a wooden table", "in a park", "on a white background"]
+RELATIONS = ["to the left of", "to the right of", "on top of", "behind"]
+WORDS = ["SALE", "OPEN", "WELCOME", "KEEP GOING", "MIRROR CITY", "AI LAB", "COFFEE",
+         "HELLO", "EXIT", "NEW", "FRESH", "HOME", "PEACE", "MENU", "STOP", "JAZZ"]
+CARRIERS = ["a street sign", "a coffee cup", "a book cover", "a chalkboard", "a shop window",
+            "a t-shirt", "a poster", "a neon sign"]
+STYLES = ["flat poster style", "watercolor painting", "photorealistic", "isometric 3D render",
+          "anime style", "pencil sketch"]
 
 
-def build_prompt_bank(num_per_category: int = 20, output_path: str | None = None) -> list[dict[str, Any]]:
-    """Generate a prompt bank with balanced category coverage."""
-    prompts: list[dict[str, Any]] = []
-    for category, templates in CATEGORY_TEMPLATES.items():
-        for idx in range(num_per_category):
-            base = templates[idx % len(templates)]
-            suffix = f" {category} benchmark sample {idx + 1}"
-            prompt_text = f"{base}{suffix}" if idx % 3 == 0 else base
-            prompts.append(
-                {
-                    "prompt_id": len(prompts) + 1,
-                    "category": category,
-                    "prompt": prompt_text,
-                    "model_name": "",
-                    "seed": 0,
-                    "image_path": "",
-                    "notes": "seeded benchmark prompt",
-                }
-            )
+def _a(phrase: str) -> str:
+    return ("an " if phrase[0] in "aeiou" else "a ") + phrase
 
+
+def _np(name: str, count: int, color: str | None = None) -> str:
+    col = f"{color} " if color else ""
+    return _a(col + name) if count == 1 else f"{count} {col}{name}s"
+
+
+def _obj(name, count=1, color=None) -> dict:
+    return {"name": name, "count": count, "color": color}
+
+
+def _entry(category: str, objects=(), relations=(), text=(), style="") -> dict[str, Any]:
+    return {"category": category,
+            "checklist": {"objects": list(objects), "relations": list(relations),
+                          "text": list(text), "style": style}}
+
+
+def _counting(rng: random.Random):
+    name, n, ctx = rng.choice(OBJECTS), rng.randint(2, 7), rng.choice(CONTEXTS)
+    e = _entry("counting", [_obj(name, n)])
+    e["prompt"] = f"{n} {name}s {ctx}"
+    return e
+
+
+def _spatial(rng: random.Random):
+    a, b = rng.sample(OBJECTS, 2)
+    rel = rng.choice(RELATIONS)
+    e = _entry("spatial", [_obj(a), _obj(b)], [{"subject": a, "relation": rel, "object": b}])
+    e["prompt"] = f"{_a(a)} {rel} {_a(b)}"
+    return e
+
+
+def _color_binding(rng: random.Random):
+    a, b = rng.sample(OBJECTS, 2)
+    ca, cb = rng.sample(COLORS, 2)
+    e = _entry("color_binding", [_obj(a, 1, ca), _obj(b, 1, cb)])
+    e["prompt"] = f"{_a(ca + ' ' + a)} and {_a(cb + ' ' + b)}"
+    return e
+
+
+def _text(rng: random.Random):
+    word, carrier = rng.choice(WORDS), rng.choice(CARRIERS)
+    e = _entry("text_rendering", [], [], [word])
+    e["prompt"] = f"{carrier} with the text '{word}'"
+    return e
+
+
+def _compound(rng: random.Random):
+    a, b = rng.sample(OBJECTS, 2)
+    n, ca = rng.randint(2, 4), rng.choice(COLORS)
+    rel, style = rng.choice(RELATIONS), rng.choice(STYLES)
+    text = [rng.choice(WORDS)] if rng.random() < 0.5 else []
+    e = _entry("compound", [_obj(a, n, ca), _obj(b)],
+               [{"subject": a, "relation": rel, "object": b}], text, style)
+    e["prompt"] = (f"{_np(a, n, ca)} {rel} {_a(b)}, {style}"
+                   + (f", with the word '{text[0]}'" if text else ""))
+    return e
+
+
+_BUILDERS = {"counting": _counting, "spatial": _spatial, "color_binding": _color_binding,
+             "text_rendering": _text, "compound": _compound}
+
+
+def flatten_checklist(checklist: dict) -> list[dict]:
+    """Turn the JSON checklist into atomic, individually verifiable elements."""
+    out: list[dict] = []
+    for o in checklist.get("objects", []):
+        n = o.get("count", 1)
+        if n != 1:
+            out.append({"kind": "count", "count": n, "text": f"exactly {n} {o['name']}(s) are visible"})
+        elif not o.get("color"):
+            out.append({"kind": "object", "text": f"a {o['name']} is present"})
+        if o.get("color"):
+            out.append({"kind": "color", "text": (f"the {o['name']} is {o['color']}" if n == 1
+                                          else f"the {o['name']}s are {o['color']}")})
+    for r in checklist.get("relations", []):
+        out.append({"kind": "relation", "text": f"the {r['subject']} is {r['relation']} the {r['object']}"})
+    for t in checklist.get("text", []):
+        out.append({"kind": "text", "text": f"the text '{t}' is rendered legibly and spelled correctly"})
+    if checklist.get("style"):
+        out.append({"kind": "style", "text": f"the image is in {checklist['style']}"})
+    for i, el in enumerate(out):
+        el["id"] = i
+    return out
+
+
+def build_prompt_bank(num_per_category: int = 30, output_path: str | None = None,
+                      seed: int = 1234) -> list[dict[str, Any]]:
+    """Deterministic, de-duplicated bank (default 5 x 30 = 150 prompts, within the paper's 100-200)."""
+    rng = random.Random(seed)
+    bank: list[dict[str, Any]] = []
+    for category in CATEGORIES:
+        seen: set[str] = set()
+        attempts = 0
+        while len(seen) < num_per_category and attempts < 10000:
+            attempts += 1
+            e = _BUILDERS[category](rng)
+            if e["prompt"] in seen:
+                continue
+            seen.add(e["prompt"])
+            e["prompt_id"] = len(bank) + 1
+            e["elements"] = flatten_checklist(e["checklist"])
+            e["seed"] = seed + e["prompt_id"]  # fixed per prompt, shared across models
+            bank.append(e)
     if output_path is not None:
-        output_file = Path(output_path)
-        output_file.parent.mkdir(parents=True, exist_ok=True)
-        output_file.write_text(json.dumps(prompts, indent=2, ensure_ascii=False), encoding="utf-8")
-
-    return prompts
+        save_json(output_path, bank)
+    return bank
 
 
-def load_prompt_bank(path: str | Path) -> list[dict[str, Any]]:
-    data = json.loads(Path(path).read_text(encoding="utf-8"))
-    return data
+def load_json(path: str | Path) -> list[dict[str, Any]]:
+    return json.loads(Path(path).read_text(encoding="utf-8"))
 
 
-def save_prompt_bank(path: str | Path, prompts: Iterable[dict[str, Any]]) -> None:
+def save_json(path: str | Path, rows: Iterable[dict[str, Any]]) -> None:
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(list(prompts), indent=2, ensure_ascii=False), encoding='utf-8')
+    path.write_text(json.dumps(list(rows), indent=2, ensure_ascii=False), encoding="utf-8")

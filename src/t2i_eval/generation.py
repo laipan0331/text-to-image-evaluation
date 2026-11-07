@@ -1,47 +1,41 @@
+"""Image generation for the two benchmarked models (paper: SDXL + SDXL-Turbo)."""
 from __future__ import annotations
 
-import json
+import time
 from pathlib import Path
 
-import torch
-from diffusers import AutoPipelineForText2Image
+MODELS = {
+    "sdxl": {"hf_id": "stabilityai/stable-diffusion-xl-base-1.0", "steps": 30, "guidance": 7.0},
+    "sdxl-turbo": {"hf_id": "stabilityai/sdxl-turbo", "steps": 4, "guidance": 0.0},
+}
 
 
-def load_model_pipeline(model_name: str, device: str | None = None, torch_dtype: torch.dtype | None = None):
-    """Load a diffusion model from Hugging Face using diffusers."""
+def load_model_pipeline(hf_id: str, device: str | None = None):
+    import torch
+    from diffusers import AutoPipelineForText2Image
+
     device = device or ("cuda" if torch.cuda.is_available() else "cpu")
-    torch_dtype = torch_dtype or (torch.float16 if device == "cuda" else torch.float32)
-
-    pipe = AutoPipelineForText2Image.from_pretrained(model_name, torch_dtype=torch_dtype)
-    pipe = pipe.to(device)
-    return pipe
+    dtype = torch.float16 if device == "cuda" else torch.float32
+    return AutoPipelineForText2Image.from_pretrained(hf_id, torch_dtype=dtype).to(device), device
 
 
-def generate_images(prompt_bank: list[dict], model_name: str, output_dir: str | Path, num_per_prompt: int = 2, seed_offset: int = 0):
-    """Generate a small set of images per prompt and save metadata."""
-    output_dir = Path(output_dir)
-    output_dir.mkdir(parents=True, exist_ok=True)
+def generate_images(bank: list[dict], model_key: str, output_dir: str | Path) -> list[dict]:
+    """One image per prompt using the prompt's fixed seed, so both models see identical seeds."""
+    import torch
 
-    pipe = load_model_pipeline(model_name)
-    result_rows: list[dict] = []
-
-    for index, item in enumerate(prompt_bank):
-        prompt = item["prompt"]
-        for image_idx in range(num_per_prompt):
-            generator = torch.Generator(device="cuda" if torch.cuda.is_available() else "cpu")
-            seed = seed_offset + index * num_per_prompt + image_idx
-            generator.manual_seed(seed)
-            image = pipe(prompt=prompt, generator=generator, num_inference_steps=25).images[0]
-            image_name = f"{item['prompt_id']:04d}_{image_idx:02d}_{seed}.png"
-            image_path = output_dir / image_name
-            image.save(image_path)
-
-            record = dict(item)
-            record["model_name"] = model_name
-            record["seed"] = seed
-            record["image_path"] = str(image_path)
-            result_rows.append(record)
-
-    metadata_path = output_dir / "generation_metadata.json"
-    metadata_path.write_text(json.dumps(result_rows, indent=2, ensure_ascii=False), encoding="utf-8")
-    return result_rows
+    cfg = MODELS[model_key]
+    out = Path(output_dir) / model_key
+    out.mkdir(parents=True, exist_ok=True)
+    pipe, device = load_model_pipeline(cfg["hf_id"])
+    rows = []
+    for item in bank:
+        gen = torch.Generator(device=device).manual_seed(item["seed"])
+        t0 = time.time()
+        img = pipe(prompt=item["prompt"], generator=gen, num_inference_steps=cfg["steps"],
+                   guidance_scale=cfg["guidance"]).images[0]
+        latency = time.time() - t0
+        path = out / f"{item['prompt_id']:04d}.png"
+        img.save(path)
+        rows.append({**item, "model": model_key, "image_path": str(path),
+                     "steps": cfg["steps"], "guidance": cfg["guidance"], "latency_s": round(latency, 3)})
+    return rows

@@ -1,58 +1,47 @@
+"""Automatic metrics: CLIPScore and a lightweight aesthetic proxy (paper Sec. 4, contribution 4)."""
 from __future__ import annotations
 
-import json
+from functools import lru_cache
 from pathlib import Path
 
 import numpy as np
-import torch
 from PIL import Image
-from transformers import CLIPProcessor, CLIPModel
 
 
-def _load_clip_model():
-    model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32")
-    processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
-    return model, processor
+@lru_cache(maxsize=1)
+def _load_clip():
+    from transformers import CLIPModel, CLIPProcessor
+
+    name = "openai/clip-vit-base-patch32"
+    return CLIPModel.from_pretrained(name).eval(), CLIPProcessor.from_pretrained(name)
 
 
 def compute_clip_score(prompt: str, image_path: str | Path) -> float:
-    """Compute a CLIPScore-like similarity between prompt and image."""
-    model, processor = _load_clip_model()
-    model.eval()
+    """CLIPScore (Hessel et al., 2021): 2.5 * max(cos(image, text), 0)."""
+    import torch
+
+    model, processor = _load_clip()
     image = Image.open(image_path).convert("RGB")
-    inputs = processor(text=[prompt], images=image, return_tensors="pt", padding=True)
+    inputs = processor(text=[prompt], images=image, return_tensors="pt", padding=True, truncation=True)
     with torch.no_grad():
-        outputs = model(**inputs)
-        logits_per_image = outputs.logits_per_image
-    score = torch.softmax(logits_per_image, dim=1)[0, 0].item()
-    return float(score)
+        img = model.get_image_features(pixel_values=inputs["pixel_values"])
+        txt = model.get_text_features(input_ids=inputs["input_ids"], attention_mask=inputs["attention_mask"])
+    cos = torch.nn.functional.cosine_similarity(img, txt).item()
+    return float(2.5 * max(cos, 0.0))
 
 
 def compute_aesthetic_score(image_path: str | Path) -> float:
-    """Placeholder aesthetic scoring using a simple image-based heuristic."""
-    image = Image.open(image_path).convert("RGB")
-    arr = np.asarray(image)
-    brightness = float(arr.mean()) / 255.0
-    contrast = float(arr.std()) / 255.0
-    return float(0.5 * brightness + 0.5 * contrast)
+    """Heuristic proxy (NOT a learned aesthetic model): rewards mid-range brightness,
+    contrast and colorfulness. Swap in the LAION aesthetic predictor for final numbers."""
+    arr = np.asarray(Image.open(image_path).convert("RGB"), dtype=np.float32) / 255.0
+    brightness = 1.0 - abs(float(arr.mean()) - 0.5) * 2
+    contrast = min(float(arr.std()) / 0.25, 1.0)
+    rg, yb = arr[..., 0] - arr[..., 1], 0.5 * (arr[..., 0] + arr[..., 1]) - arr[..., 2]
+    colorful = min(float(np.hypot(rg.std(), yb.std())) / 0.3, 1.0)
+    return float((brightness + contrast + colorful) / 3)
 
 
 def compute_metrics_for_records(records: list[dict]) -> list[dict]:
-    enriched = []
-    for item in records:
-        prompt = item["prompt"]
-        image_path = item["image_path"]
-        clip_score = compute_clip_score(prompt, image_path)
-        aesthetic_score = compute_aesthetic_score(image_path)
-        enriched.append({
-            **item,
-            "clip_score": clip_score,
-            "aesthetic_score": aesthetic_score,
-        })
-    return enriched
-
-
-def save_metric_report(records: list[dict], output_path: str | Path) -> None:
-    output_file = Path(output_path)
-    output_file.parent.mkdir(parents=True, exist_ok=True)
-    output_file.write_text(json.dumps(records, indent=2, ensure_ascii=False), encoding="utf-8")
+    return [{**r,
+             "clip_score": compute_clip_score(r["prompt"], r["image_path"]),
+             "aesthetic_score": compute_aesthetic_score(r["image_path"])} for r in records]

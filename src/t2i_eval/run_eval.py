@@ -1,48 +1,91 @@
+"""Staged CLI. Each stage reads/writes outputs/records.json.
+
+    python -m t2i_eval bank
+    python -m t2i_eval generate --models sdxl sdxl-turbo
+    python -m t2i_eval metrics
+    python -m t2i_eval judge --judge-model gpt-4o --loop-judge-model <in-loop judge>
+    python -m t2i_eval human-export
+    python -m t2i_eval analyze [--human-sheets outputs/human/annotator_1.csv ...]
+"""
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 from pathlib import Path
 
-from .dataset import build_prompt_bank, load_prompt_bank, save_prompt_bank
-from .generation import generate_images
-from .metrics import compute_metrics_for_records, save_metric_report
-from .judge import process_judge_batch
+from .dataset import build_prompt_bank, load_json, save_json
 
 
-def main():
-    parser = argparse.ArgumentParser(description="Text-to-image evaluation pipeline")
-    parser.add_argument("--generate", action="store_true", help="generate prompts and images")
-    parser.add_argument("--evaluate", action="store_true", help="compute automatic metrics")
-    parser.add_argument("--prompt-bank", type=str, default="data/prompt_bank.json")
-    parser.add_argument("--output-dir", type=str, default="outputs")
-    parser.add_argument("--model", type=str, default="stabilityai/stable-diffusion-xl-base-1.0")
-    parser.add_argument("--num-per-category", type=int, default=20)
-    args = parser.parse_args()
+def main(argv=None):
+    p = argparse.ArgumentParser(description="T2I benchmark for PromptCraft")
+    p.add_argument("stage", choices=["bank", "generate", "metrics", "judge", "human-export", "analyze"])
+    p.add_argument("--output-dir", default="outputs")
+    p.add_argument("--prompt-bank", default="data/prompt_bank.json")
+    p.add_argument("--models", nargs="+", default=["sdxl", "sdxl-turbo"])
+    p.add_argument("--num-per-category", type=int, default=30)
+    p.add_argument("--judge-model", default=None)
+    p.add_argument("--loop-judge-model", default=None, help="judge used inside the agent loop; must differ")
+    p.add_argument("--human-sheets", nargs="*", default=[])
+    p.add_argument("--n-annotators", type=int, default=2)
+    a = p.parse_args(argv)
 
-    output_dir = Path(args.output_dir)
-    output_dir.mkdir(parents=True, exist_ok=True)
+    out = Path(a.output_dir)
+    out.mkdir(parents=True, exist_ok=True)
+    records_path = out / "records.json"
 
-    if args.generate:
-        prompt_bank = build_prompt_bank(num_per_category=args.num_per_category, output_path=args.prompt_bank)
-        generated = generate_images(prompt_bank, model_name=args.model, output_dir=output_dir / "images", num_per_prompt=2)
-        save_prompt_bank(args.prompt_bank, generated)
-        print(f"Generated {len(generated)} images.")
+    if a.stage == "bank":
+        bank = build_prompt_bank(a.num_per_category, a.prompt_bank)
+        print(f"Wrote {len(bank)} prompts to {a.prompt_bank}")
+        return
 
-    if args.evaluate:
-        prompt_bank_path = Path(args.prompt_bank)
-        if prompt_bank_path.exists():
-            records = load_prompt_bank(prompt_bank_path)
-        else:
-            records = build_prompt_bank(num_per_category=args.num_per_category)
-        metrics = compute_metrics_for_records(records)
-        metric_path = output_dir / "metrics.json"
-        save_metric_report(metrics, metric_path)
+    if a.stage == "generate":
+        from .generation import generate_images
 
-        judge_results = process_judge_batch(metrics)
-        judge_path = output_dir / "judge_results.json"
-        judge_path.write_text(json.dumps(judge_results, indent=2, ensure_ascii=False), encoding="utf-8")
-        print(f"Saved metric and judge results to {output_dir}.")
+        bank = load_json(a.prompt_bank)
+        rows = []
+        for m in a.models:
+            rows += generate_images(bank, m, out / "images")
+        save_json(records_path, rows)
+        print(f"Generated {len(rows)} images.")
+        return
+
+    records = load_json(records_path)
+
+    if a.stage == "metrics":
+        from .metrics import compute_metrics_for_records
+
+        save_json(records_path, compute_metrics_for_records(records))
+    elif a.stage == "judge":
+        from .judge import OpenAIVisionJudge, process_judge_batch
+
+        if not a.judge_model:
+            p.error("--judge-model is required for the judge stage")
+        save_json(records_path, process_judge_batch(records, OpenAIVisionJudge(a.judge_model),
+                                                    a.loop_judge_model))
+    elif a.stage == "human-export":
+        from .human_eval import export_annotation_sheets
+
+        export_annotation_sheets(records, out / "human", a.n_annotators)
+        print(f"Sheets written to {out / 'human'}")
+    elif a.stage == "analyze":
+        from .analysis import capability_profile, category_table, metric_human_correlation
+        from .human_eval import agreement_report, load_ratings
+
+        result = {"category_table": category_table(records)}
+        (out / "capability_profile.json").write_text(
+            json.dumps(capability_profile(records), indent=2), encoding="utf-8")
+        if a.human_sheets:
+            sheets = [load_ratings(s) for s in a.human_sheets]
+            ids = set().union(*sheets)
+            mean = {i: {d: sum(s[i][d] for s in sheets if i in s) / sum(i in s for s in sheets)
+                        for d in next(s[i] for s in sheets if i in s)} for i in ids}
+            with open(out / "human" / "annotation_key.csv", newline="", encoding="utf-8") as f:
+                key = {r["item_id"]: r for r in csv.DictReader(f)}
+            result["agreement"] = agreement_report(a.human_sheets)
+            result["metric_human_spearman"] = metric_human_correlation(records, mean, key)
+        (out / "analysis.json").write_text(json.dumps(result, indent=2), encoding="utf-8")
+        print(f"Wrote analysis.json and capability_profile.json to {out}")
 
 
 if __name__ == "__main__":
